@@ -1,0 +1,38 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 0;
+}
+
+.fixed{
+	position: fixed;
+	margin-left: 27%;
+	margin-top: 5%;
+    margin-right: 27%;
+	padding-right:5%;
+	padding-left: 5%;
+	padding-top:2%;
+	padding-bottom: 2%;
+   background-color: white;
+   border-width: 0.01px;
+}
+.previous{
+	text-decoration: underline;
+	color: black;
+}
+span{
+	text-decoration: underline;
+}
+.home{
+	text-decoration: none;
+	color: black;
+	text-align: right;
+}
+a:hover{
+	background-color: black;
+	color: white;
+	transition-duration: 0.2s;
+}
+.home:hover{
+	background-color: white;
+	color: pink;
+}

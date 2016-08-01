@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>information</title>
+</head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="informationstyle.css">
+<body>
+<div class="fixed" >
+Hi my name is Hana. I am a student in School of Design, Jiangnan University.
+<br>
+Feel free to contact me if you have any questions or comments.
+<br><br>
+<img src="images/selfie.jpg" alt="Hana" style="width:480px;height:345px;" align="center">
+<br><br>
+<span aligh="center">Wechat : hana_lrx</span>
+<br>
+<span>Mail : hanaruoxili@gmail.com</span>
+<br>
+<a   class="previous" href="https://www.facebook.com/ruoxi.li.184">
+facebook
+</a>
+<br>
+<a   class="previous" href="https://twitter.com/HanaRuoxiLi">
+twitter
+</a>
+<br><br><br>
+<a   class="home" href="index.html">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;● Home
+</a>
+</div>
+
+
+
+
+	<script src="js/ThreeCanvas.js"></script>
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script src="js/Snow.js"></script>
+	<script src="js/snowFall2.js"></script>
+	<script>
+		$.snowFall({
+			//创建粒子数量，密度
+			particleNo: 500,
+			//粒子下拉速度
+			particleSpeed:30,
+			//粒子在垂直（Y轴）方向运动范围
+			particleY_Range:1300,
+			//粒子在垂直（X轴）方向运动范围
+			particleX_Range:1000,
+			//是否绑定鼠标事件
+		    bindMouse: false,
+		    //相机离Z轴原点距离
+		    zIndex:600,
+		  //摄像机视野角度
+		    angle:55,
+		    wind_weight:0
+			});
+	</script>
+	<canvas>
+	</canvas>
+	<!-- 代码部分end -->
+</body>
+</html>
