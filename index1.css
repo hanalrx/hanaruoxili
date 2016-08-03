@@ -10,8 +10,8 @@ body{
 	font-size:2em;
     background-color:white;
     line-height: 20px;
-    opacity:0.6;
-filter:alpha(opacity=50);
+    opacity:0.8;
+filter:alpha(opacity=80);
 }
 .fixed:hover{
 	text-shadow: 2px 2px 0 pink,-1px -1px 0 pink
@@ -76,5 +76,11 @@ a{
 	position: fixed;
 	top: 10%;
 	left:10%;
+
+}
+.clouds4{
+	position: fixed;
+	top: 9%;
+	right: 30%;
 
 }
