@@ -65,4 +65,16 @@ a{
 	left: 0;
 
 }
+.clouds2{
+	position: fixed;
+	top: 0;
+	right: 0;
 
+}
+
+.clouds3{
+	position: fixed;
+	top: 10%;
+	left:10%;
+
+}
