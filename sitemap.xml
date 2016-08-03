@@ -517,6 +517,24 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://work.com/images/6643cc34gw1f3eiiwq7zgj218g0xcnhm.jpg</loc>
+    <lastmod>2016-08-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://work.com/images/%E5%9B%BE%E7%89%8732.jpg</loc>
+    <lastmod>2016-08-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://work.com/images/%E5%9B%BE%E7%89%8752.jpg</loc>
+    <lastmod>2016-08-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://work.com/index.html</loc>
     <lastmod>2016-08-03</lastmod>
     <changefreq>weekly</changefreq>

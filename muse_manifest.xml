@@ -1,17 +1,17 @@
-<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="work.com" resolutions="1x" timestamp="1470202365797">
+<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="work.com" resolutions="1x" timestamp="1470203645916">
   <folder name="css">
     <file name="site_global.css" crc="4052507572"/>
     <file name="master_a-master.css" crc="219894357" ref="glass-utensil-design:food-photography:digital-artsound-wall:motion-graphic-ad-for-163study:space-design:index:audio-reactive-visuals:experiement-visualization:handmade-spoon:monderian-in-3d"/>
-    <file name="glass-utensil-design.css" crc="504967542" ref="glass-utensil-design"/>
-    <file name="food-photography.css" crc="441234542" ref="food-photography"/>
-    <file name="digital-artsound-wall.css" crc="4023944360" ref="digital-artsound-wall"/>
-    <file name="motion-graphic-ad-for-163study.css" crc="178425175" ref="motion-graphic-ad-for-163study"/>
-    <file name="space-design.css" crc="3886166022" ref="space-design"/>
-    <file name="index.css" crc="275914791" ref="index"/>
-    <file name="audio-reactive-visuals.css" crc="2325494" ref="audio-reactive-visuals"/>
-    <file name="experiement-visualization.css" crc="3929691592" ref="experiement-visualization"/>
-    <file name="handmade-spoon.css" crc="112444383" ref="handmade-spoon"/>
-    <file name="monderian-in-3d.css" crc="495775860" ref="monderian-in-3d"/>
+    <file name="glass-utensil-design.css" crc="341253552" ref="glass-utensil-design"/>
+    <file name="food-photography.css" crc="4238904268" ref="food-photography"/>
+    <file name="digital-artsound-wall.css" crc="3965779800" ref="digital-artsound-wall"/>
+    <file name="motion-graphic-ad-for-163study.css" crc="4115583046" ref="motion-graphic-ad-for-163study"/>
+    <file name="space-design.css" crc="459545613" ref="space-design"/>
+    <file name="index.css" crc="443942943" ref="index"/>
+    <file name="audio-reactive-visuals.css" crc="33135287" ref="audio-reactive-visuals"/>
+    <file name="experiement-visualization.css" crc="43984385" ref="experiement-visualization"/>
+    <file name="handmade-spoon.css" crc="4203781180" ref="handmade-spoon"/>
+    <file name="monderian-in-3d.css" crc="3879552802" ref="monderian-in-3d"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="4255413929" ref="index:monderian-in-3d:handmade-spoon:food-photography:space-design:experiement-visualization:glass-utensil-design:motion-graphic-ad-for-163study:digital-artsound-wall:audio-reactive-visuals"/>
@@ -111,15 +111,18 @@
     <file name="screenshot (25)68x45.jpg" crc="534313375" seo="true" ref="audio-reactive-visuals"/>
     <file name="screenshot (26)68x45.jpg" crc="3791503467" seo="true" ref="audio-reactive-visuals"/>
     <file name="screenshot (27)68x45.jpg" crc="322907067" seo="true" ref="audio-reactive-visuals"/>
+    <file name="6643cc34gw1f3eiiwq7zgj218g0xcnhm.jpg" crc="306581024" seo="true" ref="digital-artsound-wall"/>
+    <file name="图片32.jpg" crc="297440880" seo="true" ref="digital-artsound-wall"/>
+    <file name="图片52.jpg" crc="3843141648" seo="true" ref="digital-artsound-wall"/>
   </folder>
-  <file name="index.html" crc="4125456189" seo="true" mt="1470199898673" redirect="true"/>
-  <file name="monderian-in-3d.html" crc="88581483" seo="true" mt="1470197614524" redirect="true"/>
-  <file name="handmade-spoon.html" crc="3793763727" seo="true" mt="1470197755581" redirect="true"/>
-  <file name="food-photography.html" crc="422873272" seo="true" mt="1470197755581" redirect="true"/>
-  <file name="space-design.html" crc="4190559082" seo="true" mt="1470197809799" redirect="true"/>
-  <file name="experiement-visualization.html" crc="514904306" seo="true" mt="1470198032902" redirect="true"/>
-  <file name="glass-utensil-design.html" crc="4255517125" seo="true" mt="1470197950404" redirect="true"/>
-  <file name="motion-graphic-ad-for-163study.html" crc="3800996167" seo="true" mt="1470197809801" redirect="true"/>
-  <file name="digital-artsound-wall.html" crc="222260331" seo="true" mt="1470197816948" redirect="true"/>
-  <file name="audio-reactive-visuals.html" crc="3864346051" seo="true" mt="1470199271399" redirect="true"/>
+  <file name="index.html" crc="4125456189" seo="true" mt="1470203635494" redirect="true"/>
+  <file name="monderian-in-3d.html" crc="88581483" seo="true" mt="1470203635494" redirect="true"/>
+  <file name="handmade-spoon.html" crc="3793763727" seo="true" mt="1470203635494" redirect="true"/>
+  <file name="food-photography.html" crc="422873272" seo="true" mt="1470203635494" redirect="true"/>
+  <file name="space-design.html" crc="4190559082" seo="true" mt="1470203635494" redirect="true"/>
+  <file name="experiement-visualization.html" crc="514904306" seo="true" mt="1470203635494" redirect="true"/>
+  <file name="glass-utensil-design.html" crc="4255517125" seo="true" mt="1470203635494" redirect="true"/>
+  <file name="motion-graphic-ad-for-163study.html" crc="3800996167" seo="true" mt="1470203635494" redirect="true"/>
+  <file name="digital-artsound-wall.html" crc="4255046258" seo="true" mt="1470203635494" redirect="true"/>
+  <file name="audio-reactive-visuals.html" crc="3864346051" seo="true" mt="1470203635494" redirect="true"/>
 </manifest>
