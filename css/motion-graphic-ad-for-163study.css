@@ -1,0 +1,133 @@
+.version.motion_graphic_ad_for_163study /* version checker */
+{
+	color: #0000F5;
+	background-color: #4ED046;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 450.7500000000016px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	padding-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page_position_content
+{
+	margin-bottom: -67px;
+	padding-top: 20px;
+	width: 0.01px;
+}
+
+#u1102-6
+{
+	z-index: 7;
+	width: 347px;
+	min-height: 43px;
+	background-color: transparent;
+	text-align: right;
+	margin-left: 307px;
+	position: relative;
+}
+
+#u1102-2
+{
+	font-size: 24px;
+	line-height: 29px;
+}
+
+#u1102-4
+{
+	font-size: 12px;
+	line-height: 14px;
+}
+
+#u1100
+{
+	z-index: 6;
+	width: 560px;
+	min-height: 319px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-left: 200px;
+	margin-top: 90px;
+	position: relative;
+}
+
+#u1105
+{
+	z-index: 13;
+	width: 560px;
+	height: 1px;
+	background-color: #000000;
+	margin-left: 200px;
+	margin-top: 94px;
+	position: relative;
+}
+
+#pu1106-4
+{
+	width: 0.01px;
+	margin-left: 200px;
+	margin-top: 13px;
+}
+
+#u1106-4
+{
+	z-index: 14;
+	width: 74px;
+	min-height: 22px;
+	background-color: transparent;
+	font-size: 18px;
+	line-height: 22px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u1107-4
+{
+	z-index: 18;
+	width: 53px;
+	min-height: 43px;
+	background-color: transparent;
+	font-size: 18px;
+	line-height: 22px;
+	position: relative;
+	margin-right: -10000px;
+	left: 507px;
+}
+
+#u75-4
+{
+	z-index: 2;
+	width: 92px;
+	min-height: 44px;
+	margin-left: 434px;
+	margin-top: 85px;
+}
+
+body
+{
+	position: relative;
+	min-width: 960px;
+	padding-top: 53px;
+	padding-bottom: 79px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

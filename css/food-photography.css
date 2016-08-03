@@ -1,0 +1,272 @@
+.version.food_photography /* version checker */
+{
+	color: #0000FC;
+	background-color: #A88BCC;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 9015.900000000001px;
+	background-image: none;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: transparent;
+	padding-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page_position_content
+{
+	margin-top: -78px;
+	margin-bottom: -66px;
+	width: 0.01px;
+}
+
+#u247-6
+{
+	z-index: 16;
+	width: 261px;
+	min-height: 42px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: transparent;
+	text-align: center;
+	color: #000000;
+	margin-left: 363px;
+	position: relative;
+}
+
+#u247-2
+{
+	font-size: 24px;
+	line-height: 29px;
+}
+
+#u247-4
+{
+	font-size: 12px;
+	line-height: 14px;
+}
+
+#u254-4
+{
+	z-index: 24;
+	width: 74px;
+	min-height: 43px;
+	background-color: transparent;
+	font-size: 18px;
+	line-height: 22px;
+	margin-left: 864px;
+	margin-top: 48px;
+	position: relative;
+}
+
+#u217
+{
+	z-index: 6;
+	width: 922px;
+	background-color: transparent;
+	margin-left: 20px;
+	top: -6px;
+	margin-bottom: -6px;
+	position: relative;
+}
+
+#u223
+{
+	z-index: 8;
+	width: 953px;
+	background-color: transparent;
+	-webkit-transform: matrix(0,-1,1,0,160,794);
+	-ms-transform: matrix(0,-1,1,0,160,794);
+	transform: matrix(0,-1,1,0,160,794);
+	left: -140px;
+	margin-top: 275px;
+	margin-bottom: 160px;
+	position: relative;
+}
+
+#u229
+{
+	z-index: 10;
+	width: 920px;
+	background-color: transparent;
+	-webkit-transform: matrix(0,-1,1,0,154,766);
+	-ms-transform: matrix(0,-1,1,0,154,766);
+	transform: matrix(0,-1,1,0,154,766);
+	margin-left: 174px;
+	margin-top: 277px;
+	margin-bottom: 154px;
+	position: relative;
+}
+
+#u235
+{
+	z-index: 12;
+	width: 920px;
+	background-color: transparent;
+	margin-left: 20px;
+	margin-top: 129px;
+	position: relative;
+}
+
+#u241
+{
+	z-index: 14;
+	width: 922px;
+	background-color: transparent;
+	margin-left: 18px;
+	margin-top: 133px;
+	position: relative;
+}
+
+#u248
+{
+	z-index: 22;
+	width: 923px;
+	background-color: transparent;
+	margin-left: 18px;
+	margin-top: 117px;
+	position: relative;
+}
+
+#u255
+{
+	z-index: 28;
+	width: 922px;
+	background-color: transparent;
+	margin-left: 18px;
+	margin-top: 127px;
+	position: relative;
+}
+
+#u261
+{
+	z-index: 30;
+	width: 922px;
+	background-color: transparent;
+	margin-left: 18px;
+	margin-top: 134px;
+	position: relative;
+}
+
+#u287
+{
+	z-index: 38;
+	width: 921px;
+	background-color: transparent;
+	margin-left: 18px;
+	margin-top: 184px;
+	position: relative;
+}
+
+#pu268
+{
+	width: 0.01px;
+	margin-left: 20px;
+	margin-top: 316px;
+}
+
+#u268
+{
+	z-index: 32;
+	width: 364px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u274
+{
+	z-index: 34;
+	width: 364px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	left: 475px;
+}
+
+#u280
+{
+	z-index: 36;
+	width: 364px;
+	background-color: transparent;
+	margin-left: 301px;
+	position: relative;
+}
+
+#u1087
+{
+	z-index: 44;
+	width: 916px;
+	height: 1px;
+	background-color: #000000;
+	margin-left: 20px;
+	margin-top: 26px;
+	position: relative;
+}
+
+#pu1086-4
+{
+	width: 0.01px;
+	margin-left: 20px;
+	margin-top: 12px;
+}
+
+#u1086-4
+{
+	z-index: 40;
+	width: 74px;
+	min-height: 43px;
+	background-color: transparent;
+	font-size: 18px;
+	line-height: 22px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u1088-4
+{
+	z-index: 45;
+	width: 106px;
+	min-height: 43px;
+	background-color: transparent;
+	font-size: 18px;
+	line-height: 22px;
+	position: relative;
+	margin-right: -10000px;
+	left: 867px;
+}
+
+#u75-4
+{
+	z-index: 2;
+	width: 92px;
+	min-height: 44px;
+	margin-left: 434px;
+	margin-top: 85px;
+}
+
+body
+{
+	position: relative;
+	min-width: 962px;
+	padding-top: 197px;
+	padding-bottom: 141px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+
