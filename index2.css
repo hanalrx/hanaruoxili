@@ -1,18 +1,15 @@
-
 body{
 	font-family: 'Open Sans', sans-serif;
 	margin-top: 13%;
-	background-color: white;
+	background-color: black;
 }
 .fixed{
 	top: 2%;
 	position: fixed;
 	right: 8%;
 	font-size:2em;
-    background-color:white;
     line-height: 20px;
-    opacity:0.8;
-filter:alpha(opacity=80);
+    color: white;
 }
 .fixed:hover{
 	text-shadow: 2px 2px 0 pink,-1px -1px 0 pink
@@ -23,13 +20,15 @@ filter:alpha(opacity=80);
 	padding:10px;
 	position:fixed;
 	font-size: 18px;
+	color: white;
 }
 
 .previous{
 	text-decoration: none;
-	color: black;
+	color: white;
 	font-size: 20px;
-	background-color: white;
+	background-color: black;
+	color: white;
 
 
 }
@@ -37,13 +36,13 @@ filter:alpha(opacity=80);
 .previous:hover{
 	font-size: 20px;
 	transition-duration: 0.2s;
-    background-color: #565656;
-    color:white;
+    background-color: white;
+    color:black;
 }
 
 a{
 	text-decoration:none;
-	color:black;
+	color:white;
 }
 .information{
 	position: fixed;
@@ -97,36 +96,6 @@ a{
 	position: fixed;
 	top: 0%;
 	left: 30%;
-	background-color: black;
-	color: white;
-}
-.spring{
-	position: fixed;
-	top: 0%;
-	left: 36%;
-	background-color: green;
-	color: white;
-}
-
-.summer{
-	position: fixed;
-	top: 0%;
-	left: 40%;
-	background-color: #ff7e00;
-	color: white;
-}
-
-.autumn{
-	position: fixed;
-	top: 0%;
-	left: 45%;
-	background-color: pink;
-	color: white;
-}
-.winter{
-	position: fixed;
-	top: 0%;
-	left: 49.6%;
-	background-color: #008aff;
-	color: white;
+	background-color: white;
+	color: black;
 }
