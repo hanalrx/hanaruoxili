@@ -6,6 +6,7 @@ body{
 	text-align:center;
 	position: relative;
 	font-size: 20px;
+    cursor:cell;
 }
 
 .lalala{
@@ -13,11 +14,11 @@ body{
 	position: fixed;
     left: 50%;
     transform: translate(-50%, 0);
-    transition:2s 30s;
+    transition:0.5s 30s;
 }
 .lalala:hover{
 	opacity: 0;
-	transition-duration: 2s;
+	transition-duration: 0.5s;
 }
 .la2{
 	opacity: 0;
@@ -34,19 +35,22 @@ body{
 .dis{
 	color: yellow;
 	opacity: 1;
-	transition: 2s,60s;
+	transition: 0.5s,60s;
 }
 .dis:hover{
 	opacity: 0;
 	letter-spacing: 10px;
-	transition-duration:2s;
+	transition-duration:0.5s;
 }
 .dis2{
 	color:yellow;
 	opacity: 1;
-	transition:1s,1s;
+	transition:0.5s,0.5s;
 }
 .dis2:hover{
 	opacity: 0;
-	transition-duration: 1s;
+	transition-duration: 0.5s;
+}
+.nothing{
+	color: yellow;
 }
