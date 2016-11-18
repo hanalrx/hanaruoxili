@@ -14,7 +14,7 @@ body{
 	position: fixed;
     left: 50%;
     transform: translate(-50%, 0);
-    transition:0.5s 30s;
+    transition:0.5s 20s;
 }
 .lalala:hover{
 	opacity: 0;
@@ -35,7 +35,7 @@ body{
 .dis{
 	color: yellow;
 	opacity: 1;
-	transition: 0.5s,60s;
+	transition: 0.5s,30s;
 }
 .dis:hover{
 	opacity: 0;
