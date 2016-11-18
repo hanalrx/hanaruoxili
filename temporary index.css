@@ -1,18 +1,50 @@
 body{
-	background-color:pink;
+	background-color:black;
 	font-family: 'Inconsolata', monospace;
 	color:yellow;
-	margin:8%;
+	margin-top: 6%;
 	text-align:center;
 	position: relative;
+	font-size: 20px;
 }
 
 .lalala{
-	opacity: 0.5;
-	position: relative;
+	opacity: 1;
+	position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 .lalala:hover{
-	transform: scale(1.3, 1.3);
+	opacity: 0;
+	transition-duration: 2s;
+}
+.la2{
+	opacity: 0;
+	position: fixed;
+	left: 50%;
+	transform:translate(-50%,0);
+}
+
+.la2:hover{
 	opacity: 1;
 	transition-duration: 2s;
+}
+.dis{
+	color: yellow;
+	opacity: 1;
+	transition: 2s,60s;
+}
+.dis:hover{
+	opacity: 0;
+		letter-spacing: 10px;
+	transition-duration:2s;
+}
+.dis2{
+	color:yellow;
+	opacity: 1;
+	transition:1s,1s;
+}
+.dis2:hover{
+	opacity: 0;
+	transition-duration: 1s;
 }
