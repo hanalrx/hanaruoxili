@@ -1,0 +1,22 @@
+<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="hanaruoxili/keda/kedacom.com" resolutions="1x" timestamp="1490770356414">
+  <folder name="css">
+    <file name="site_global.css" crc="4052507572"/>
+    <file name="untitled-2.css" crc="3938329301" ref="untitled-2"/>
+    <file name="index.css" crc="4092777268" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="4255413929" ref="index:untitled-2"/>
+    <file name="museutils.js" crc="183364071" ref="index:untitled-2"/>
+    <file name="jquery.watch.js" crc="71412426" ref="index:untitled-2"/>
+  </folder>
+  <folder name="images">
+    <file name="pasted image 2038x1355.jpg" crc="426920627" seo="true" ref="index"/>
+    <file name="u85-grad.png" crc="204042641" ref="index"/>
+    <file name="kedacom-001 (1)-crop-u189.jpg" crc="312579274" ref="untitled-2"/>
+    <file name="kedacom-001 (1)-crop-u160.jpg" crc="3947424998" ref="untitled-2"/>
+    <file name="kedacom-003-crop-u204.jpg" crc="3768375864" ref="untitled-2"/>
+    <file name="kedacom-002 (1)-crop-u191.jpg" crc="253248129" ref="untitled-2"/>
+  </folder>
+  <file name="index.html" crc="4162803273" seo="true" mt="1490770311720" redirect="true"/>
+  <file name="untitled-2.html" crc="4187853323" seo="true" mt="1490770191439" redirect="true"/>
+</manifest>
