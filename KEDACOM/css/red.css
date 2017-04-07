@@ -1,0 +1,52 @@
+.navbar .nav li ul:after {
+	border: 5px solid;
+  border-color: #4195f7 transparent transparent #e61736;  /* rgba fallback */
+  border-color: #4195f7 transparent transparent rgba(230,23,54,1);
+} 
+
+a:hover, a:focus, .custom-color, .custom-color:hover, .list-1 a:hover, .list-2 a:hover, .image-post a:hover h3, .text-post a:hover h3, .video-post a:hover h3, .blockquote-post a:hover h3, .link-post a h4, .comment-date a:hover, .write-comment:hover, .replay, .text-custom-color, .error  {
+  color:#4195f7;  /* rgba fallback */
+  color: #4195f7;  
+
+}
+.navbar .nav > li.active > a, 
+.navbar .nav li ul li a, 
+.navbar .nav > li.active > a:hover, 
+.navbar .nav > li:hover > a, 
+.btn-custom-color,
+.slider1 .flex-control-paging li a.flex-active, 
+.slider3 .flex-control-paging li a.flex-active,
+.slider4 .flex-control-paging li a.flex-active, 
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar,
+.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.mCS-dark>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCS-dark>.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar,
+.mCS-dark>.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCS-dark>.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar,
+.banner-about-active, .banner-about-normal:hover, .alert-error, .btn:focus {
+  background:#4195f7; /* rgba fallback */
+  background: #4195f7; 
+}
+
+
+/* remove this section if u want default browser scroolbar */
+body::-webkit-scrollbar-thumb { 
+  background:#4195f7; /* rgba fallback */
+  background: #4195f7  
+}
+
+::selection {
+  background:#4195f7; /* rgba fallback */
+  background: #4195f7;
+  color:#fff;
+}
+::-moz-selection {
+  background:#4195f7; /* rgba fallback */
+  background: #4195f7;
+  color:#fff;
+}
+  */
+
+
