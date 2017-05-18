@@ -1,7 +1,7 @@
 .version.cover /* version checker */
 {
-	color: #000019;
-	background-color: #38D051;
+	color: #0000E1;
+	background-color: #3F8F19;
 }
 
 @-ms-viewport
@@ -63,10 +63,10 @@
 	filter: alpha(opacity=1);
 }
 
-#u309
+#u341
 {
 	z-index: 3;
-	width: 379px;
+	width: 383px;
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;

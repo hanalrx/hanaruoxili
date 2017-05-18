@@ -1,4 +1,4 @@
-<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="123.com" resolutions="1x,2x" timestamp="1495123947649">
+<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="123.com" resolutions="1x,2x" timestamp="1495128750104">
   <folder name="css">
     <file name="site_global.css" crc="4052507572"/>
     <file name="master_a-master.css" crc="391659978" ref="red:shop:contact-us:menu:brief:play:index:blue:cover:establish:blue-menu:oops！:shop-menu:establish-menu:red-menu"/>
@@ -10,7 +10,7 @@
     <file name="play.css" crc="147213101" ref="play"/>
     <file name="index.css" crc="403616403" ref="index"/>
     <file name="blue.css" crc="193327475" ref="blue"/>
-    <file name="cover.css" crc="423153745" ref="cover"/>
+    <file name="cover.css" crc="3779039001" ref="cover"/>
     <file name="establish.css" crc="200162396" ref="establish"/>
     <file name="blue-menu.css" crc="349593751" ref="blue-menu"/>
     <file name="oops_.css" crc="482630855" ref="oops！"/>
@@ -50,8 +50,8 @@
     <file name="app copy-11_2x.png" crc="196746762" seo="true" ref="establish"/>
     <file name="app copy-13.png" crc="4284433783" seo="true" ref="establish-menu"/>
     <file name="app copy-13_2x.png" crc="441290704" seo="true" ref="establish-menu"/>
-    <file name="app copy-08.jpg" crc="252953360" seo="true" ref="cover"/>
-    <file name="app copy-08_2x.jpg" crc="4196799274" seo="true" ref="cover"/>
+    <file name="app copy-08.jpg" crc="4178869347" seo="true" ref="cover"/>
+    <file name="app copy-08_2x.jpg" crc="3795824857" seo="true" ref="cover"/>
     <file name="app copy-15.png" crc="309102484" seo="true" ref="shop-menu"/>
     <file name="app copy-15_2x.png" crc="3811514743" seo="true" ref="shop-menu"/>
   </folder>
@@ -68,6 +68,6 @@
   <file name="red-menu.html" crc="4177718492" seo="true" mt="1495120925573" redirect="true"/>
   <file name="establish.html" crc="4127278463" seo="true" mt="1495123378911" redirect="true"/>
   <file name="establish-menu.html" crc="4147370360" seo="true" mt="1495123341206" redirect="true"/>
-  <file name="cover.html" crc="271894182" seo="true" mt="1495123290586" redirect="true"/>
+  <file name="cover.html" crc="435575027" seo="true" mt="1495128742171" redirect="true"/>
   <file name="shop-menu.html" crc="527205329" seo="true" mt="1495123817518" redirect="true"/>
 </manifest>
