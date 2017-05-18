@@ -1,0 +1,96 @@
+.version.red /* version checker */
+{
+	color: #000002;
+	background-color: #13C1EF;
+}
+
+@-ms-viewport
+{
+	width: 380px;
+}
+
+@-webkit-viewport
+{
+	width: 380px;
+}
+
+@-o-viewport
+{
+	width: 380px;
+}
+
+@-moz-viewport
+{
+	width: 380px;
+}
+
+@viewport
+{
+	width: 380px;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 380px;
+	min-height: 499px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+}
+
+#u181
+{
+	z-index: 2;
+	width: 53px;
+	height: 27px;
+	margin-right: -10000px;
+	margin-top: 9px;
+	left: 319px;
+}
+
+#u103
+{
+	z-index: 3;
+	width: 381px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u183
+{
+	z-index: 5;
+	width: 58px;
+	height: 57px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 61px;
+	left: 50px;
+}
+
+.ie #u181,.ie #u183
+{
+	background-color: #FFFFFF;
+	opacity: 0.01;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+	filter: alpha(opacity=1);
+}
+
+body
+{
+	position: relative;
+	min-width: 380px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

@@ -1,0 +1,45 @@
+<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="123.com" resolutions="1x,2x" timestamp="1495115695647">
+  <folder name="css">
+    <file name="site_global.css" crc="4052507572"/>
+    <file name="master_a-master.css" crc="391659978" ref="red:shop:contact-us:menu:brief:play:index:blue"/>
+    <file name="red.css" crc="34849263" ref="red"/>
+    <file name="shop.css" crc="494009241" ref="shop"/>
+    <file name="contact-us.css" crc="117018097" ref="contact-us"/>
+    <file name="menu.css" crc="3808649702" ref="menu"/>
+    <file name="brief.css" crc="524487310" ref="brief"/>
+    <file name="play.css" crc="147213101" ref="play"/>
+    <file name="index.css" crc="4174086303" ref="index"/>
+    <file name="blue.css" crc="218989371" ref="blue"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="4255413929" ref="index:red:blue:brief:play:menu:contact-us:shop"/>
+    <file name="museutils.js" crc="183364071" ref="index:red:blue:brief:play:menu:contact-us:shop"/>
+    <file name="jquery.watch.js" crc="71412426" ref="red:blue:brief:play:menu:contact-us:shop"/>
+  </folder>
+  <folder name="images">
+    <file name="app-01.png" crc="331297466" seo="true" ref="index"/>
+    <file name="app-01_2x.png" crc="4110921676" seo="true" ref="index"/>
+    <file name="app-02.png" crc="77220334" seo="true" ref="red"/>
+    <file name="app-02_2x.png" crc="4185021391" seo="true" ref="red"/>
+    <file name="app-03.png" crc="440118020" seo="true" ref="blue"/>
+    <file name="app-03_2x.png" crc="171464308" seo="true" ref="blue"/>
+    <file name="app-04.png" crc="3942107703" seo="true" ref="brief"/>
+    <file name="app-04_2x.png" crc="3821766914" seo="true" ref="brief"/>
+    <file name="app-08.png" crc="3848993446" seo="true" ref="play"/>
+    <file name="app-08_2x.png" crc="139640651" seo="true" ref="play"/>
+    <file name="app-05.png" crc="4101050418" seo="true" ref="menu"/>
+    <file name="app-05_2x.png" crc="512958147" seo="true" ref="menu"/>
+    <file name="app-07.png" crc="3878231964" seo="true" ref="contact-us"/>
+    <file name="app-07_2x.png" crc="4107953906" seo="true" ref="contact-us"/>
+    <file name="app-06.png" crc="3831457347" seo="true" ref="shop"/>
+    <file name="app-06_2x.png" crc="94635679" seo="true" ref="shop"/>
+  </folder>
+  <file name="index.html" crc="3876516624" seo="true" mt="1495115583864" redirect="true"/>
+  <file name="red.html" crc="3802473324" seo="true" mt="1495115583864" redirect="true"/>
+  <file name="blue.html" crc="3873015776" seo="true" mt="1495115583864" redirect="true"/>
+  <file name="brief.html" crc="281106646" seo="true" mt="1495115583864" redirect="true"/>
+  <file name="play.html" crc="4156522387" seo="true" mt="1495115652522" redirect="true"/>
+  <file name="menu.html" crc="368612880" seo="true" mt="1495115614647" redirect="true"/>
+  <file name="contact-us.html" crc="3774043268" seo="true" mt="1495115583864" redirect="true"/>
+  <file name="shop.html" crc="3767501380" seo="true" mt="1495115637922" redirect="true"/>
+</manifest>
