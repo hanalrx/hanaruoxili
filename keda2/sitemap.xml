@@ -2,97 +2,181 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://123.com/images/app-01.png</loc>
-    <lastmod>2017-05-18</lastmod>
+    <lastmod>2017-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://123.com/images/app-01_2x.png</loc>
-    <lastmod>2017-05-18</lastmod>
+    <lastmod>2017-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://123.com/images/app-02.png</loc>
-    <lastmod>2017-05-18</lastmod>
+    <lastmod>2017-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://123.com/images/app-02_2x.png</loc>
-    <lastmod>2017-05-18</lastmod>
+    <lastmod>2017-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://123.com/images/app-03.png</loc>
-    <lastmod>2017-05-18</lastmod>
+    <lastmod>2017-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://123.com/images/app-03_2x.png</loc>
-    <lastmod>2017-05-18</lastmod>
+    <lastmod>2017-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://123.com/images/app-04.png</loc>
-    <lastmod>2017-05-18</lastmod>
+    <lastmod>2017-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://123.com/images/app-04_2x.png</loc>
-    <lastmod>2017-05-18</lastmod>
+    <lastmod>2017-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://123.com/images/app-08.png</loc>
-    <lastmod>2017-05-18</lastmod>
+    <lastmod>2017-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://123.com/images/app-08_2x.png</loc>
-    <lastmod>2017-05-18</lastmod>
+    <lastmod>2017-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://123.com/images/app-05.png</loc>
-    <lastmod>2017-05-18</lastmod>
+    <lastmod>2017-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://123.com/images/app-05_2x.png</loc>
-    <lastmod>2017-05-18</lastmod>
+    <lastmod>2017-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://123.com/images/app-07.png</loc>
-    <lastmod>2017-05-18</lastmod>
+    <lastmod>2017-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://123.com/images/app-07_2x.png</loc>
-    <lastmod>2017-05-18</lastmod>
+    <lastmod>2017-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://123.com/images/app-06.png</loc>
-    <lastmod>2017-05-18</lastmod>
+    <lastmod>2017-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://123.com/images/app-06_2x.png</loc>
-    <lastmod>2017-05-18</lastmod>
+    <lastmod>2017-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://123.com/images/app%20copy-12.png</loc>
+    <lastmod>2017-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://123.com/images/app%20copy-12_2x.png</loc>
+    <lastmod>2017-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://123.com/images/app%20copy-10.png</loc>
+    <lastmod>2017-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://123.com/images/app%20copy-10_2x.png</loc>
+    <lastmod>2017-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://123.com/images/app%20copy-09.png</loc>
+    <lastmod>2017-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://123.com/images/app%20copy-09_2x.png</loc>
+    <lastmod>2017-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://123.com/images/app%20copy-11.png</loc>
+    <lastmod>2017-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://123.com/images/app%20copy-11_2x.png</loc>
+    <lastmod>2017-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://123.com/images/app%20copy-13.png</loc>
+    <lastmod>2017-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://123.com/images/app%20copy-13_2x.png</loc>
+    <lastmod>2017-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://123.com/images/app%20copy-08.jpg</loc>
+    <lastmod>2017-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://123.com/images/app%20copy-08_2x.jpg</loc>
+    <lastmod>2017-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://123.com/images/app%20copy-15.png</loc>
+    <lastmod>2017-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://123.com/images/app%20copy-15_2x.png</loc>
+    <lastmod>2017-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -141,6 +225,48 @@
   <url>
     <loc>http://123.com/shop.html</loc>
     <lastmod>2017-05-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://123.com/oops%EF%BC%81.html</loc>
+    <lastmod>2017-05-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://123.com/blue-menu.html</loc>
+    <lastmod>2017-05-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://123.com/red-menu.html</loc>
+    <lastmod>2017-05-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://123.com/establish.html</loc>
+    <lastmod>2017-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://123.com/establish-menu.html</loc>
+    <lastmod>2017-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://123.com/cover.html</loc>
+    <lastmod>2017-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://123.com/shop-menu.html</loc>
+    <lastmod>2017-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

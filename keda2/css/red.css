@@ -1,7 +1,7 @@
 .version.red /* version checker */
 {
-	color: #000002;
-	background-color: #13C1EF;
+	color: #00000E;
+	background-color: #1C102B;
 }
 
 @-ms-viewport
@@ -75,7 +75,29 @@
 	left: 50px;
 }
 
-.ie #u181,.ie #u183
+#u196
+{
+	z-index: 6;
+	width: 75px;
+	height: 76px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 381px;
+	left: 226px;
+}
+
+#u288
+{
+	z-index: 7;
+	width: 98px;
+	height: 74px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 547px;
+	left: 136px;
+}
+
+.ie #u181,.ie #u183,.ie #u196,.ie #u288
 {
 	background-color: #FFFFFF;
 	opacity: 0.01;

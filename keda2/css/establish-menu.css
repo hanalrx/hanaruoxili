@@ -1,7 +1,7 @@
-.version.index /* version checker */
+.version.establish_menu /* version checker */
 {
-	color: #000018;
-	background-color: #0EB293;
+	color: #0000E0;
+	background-color: #9C57F9;
 }
 
 @-ms-viewport
@@ -38,12 +38,11 @@
 {
 	z-index: 1;
 	width: 380px;
-	min-height: 678px;
+	min-height: 499px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
 	background-color: transparent;
-	padding-bottom: 8px;
 }
 
 #u181
@@ -56,49 +55,80 @@
 	left: 319px;
 }
 
-#u91
+#u296
 {
 	z-index: 3;
-	width: 381px;
+	width: 382px;
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
 }
 
-#u182
+#u315
 {
 	z-index: 5;
-	width: 59px;
-	height: 56px;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 61px;
-	left: 50px;
+	min-height: 196.6353658536584px;
+	background-color: transparent;
+	padding: 448px 57px 31.364634146341587px 140px;
 }
 
-#u185
+#pu316
+{
+	width: 0.01px;
+	position: relative;
+}
+
+#u316
 {
 	z-index: 6;
-	width: 64px;
-	height: 59px;
+	width: 36px;
+	height: 39px;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 556px;
-	left: 155px;
 }
 
-#u195
+#u317
 {
 	z-index: 7;
-	width: 64px;
-	height: 60px;
+	width: 39px;
+	height: 35px;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 194px;
-	left: 273px;
+	margin-top: 2px;
+	left: 66px;
 }
 
-.ie #u181,.ie #u182,.ie #u185,.ie #u195
+#u318
+{
+	z-index: 8;
+	width: 51px;
+	height: 50px;
+	margin-left: 117px;
+	margin-top: 6px;
+	position: relative;
+}
+
+#u319
+{
+	z-index: 9;
+	width: 32px;
+	height: 37px;
+	margin-left: 151px;
+	margin-top: 12px;
+	position: relative;
+}
+
+#u320
+{
+	z-index: 10;
+	width: 43px;
+	height: 38px;
+	margin-left: 136px;
+	margin-top: 15px;
+	position: relative;
+}
+
+.ie #u181,.ie #u316,.ie #u317,.ie #u318,.ie #u319,.ie #u320
 {
 	background-color: #FFFFFF;
 	opacity: 0.01;
@@ -106,9 +136,21 @@
 	filter: alpha(opacity=1);
 }
 
+#u315-bw
+{
+	z-index: 5;
+	min-height: 196.6353658536584px;
+	margin-top: 11px;
+}
+
 body
 {
 	position: relative;
 	min-width: 380px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
 }
 

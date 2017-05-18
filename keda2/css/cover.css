@@ -1,7 +1,7 @@
-.version.contact_us /* version checker */
+.version.cover /* version checker */
 {
-	color: #0000FF;
-	background-color: #E8BA67;
+	color: #000019;
+	background-color: #38D051;
 }
 
 @-ms-viewport
@@ -55,32 +55,21 @@
 	left: 319px;
 }
 
-#u157
-{
-	z-index: 3;
-	width: 380px;
-	background-color: transparent;
-	position: relative;
-	margin-right: -10000px;
-}
-
-#u194
-{
-	z-index: 5;
-	width: 71px;
-	height: 24px;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 16px;
-	left: 10px;
-}
-
-.ie #u181,.ie #u194
+.ie #u181
 {
 	background-color: #FFFFFF;
 	opacity: 0.01;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
 	filter: alpha(opacity=1);
+}
+
+#u309
+{
+	z-index: 3;
+	width: 379px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
 }
 
 body

@@ -1,7 +1,7 @@
-.version.index /* version checker */
+.version.red_menu /* version checker */
 {
-	color: #000018;
-	background-color: #0EB293;
+	color: #0000F4;
+	background-color: #E4227E;
 }
 
 @-ms-viewport
@@ -38,12 +38,11 @@
 {
 	z-index: 1;
 	width: 380px;
-	min-height: 678px;
+	min-height: 499px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
 	background-color: transparent;
-	padding-bottom: 8px;
 }
 
 #u181
@@ -56,49 +55,80 @@
 	left: 319px;
 }
 
-#u91
+#u266
 {
 	z-index: 3;
-	width: 381px;
+	width: 380px;
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
 }
 
-#u182
+#u272
 {
 	z-index: 5;
-	width: 59px;
-	height: 56px;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 61px;
-	left: 50px;
+	min-height: 200.58536585365857px;
+	background-color: transparent;
+	padding: 454px 55px 21.414634146341427px 137px;
 }
 
-#u185
+#pu273
+{
+	width: 0.01px;
+	position: relative;
+}
+
+#u273
 {
 	z-index: 6;
-	width: 64px;
-	height: 59px;
+	width: 36px;
+	height: 39px;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 556px;
-	left: 155px;
 }
 
-#u195
+#u274
 {
 	z-index: 7;
-	width: 64px;
-	height: 60px;
+	width: 39px;
+	height: 35px;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 194px;
-	left: 273px;
+	margin-top: 4px;
+	left: 67px;
 }
 
-.ie #u181,.ie #u182,.ie #u185,.ie #u195
+#u275
+{
+	z-index: 8;
+	width: 51px;
+	height: 50px;
+	margin-left: 120px;
+	margin-top: 6px;
+	position: relative;
+}
+
+#u276
+{
+	z-index: 9;
+	width: 36px;
+	height: 37px;
+	margin-left: 152px;
+	margin-top: 13px;
+	position: relative;
+}
+
+#u277
+{
+	z-index: 10;
+	width: 43px;
+	height: 38px;
+	margin-left: 138px;
+	margin-top: 17px;
+	position: relative;
+}
+
+.ie #u181,.ie #u273,.ie #u274,.ie #u275,.ie #u276,.ie #u277
 {
 	background-color: #FFFFFF;
 	opacity: 0.01;
@@ -106,9 +136,20 @@
 	filter: alpha(opacity=1);
 }
 
+#u272-bw
+{
+	z-index: 5;
+	min-height: 200.58536585365857px;
+}
+
 body
 {
 	position: relative;
 	min-width: 380px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
 }
 
