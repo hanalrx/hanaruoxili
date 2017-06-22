@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Cats' sex toy
+	</title>
+	<link rel="stylesheet" type="text/css" href="0621.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+</head>
+<body>
+<div class="floating-logo floating-logo-deli" data-link="/deli-near-info" style="left: 295.6787px; top: 350.6045px;">
+</div>
+<div class="floating-logo floating-logo-deli" style="left: 600px;top: 500px;">
+</div class="content">
+	<span>
+		<div class="box1">
+			👾
+		</div>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<div class="box1">
+			👾
+		</div>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<div class="box1"> 
+			👾
+		</div>
+	</span>
+	<br><br><br>
+	<span>
+		<div class="box1">
+			👾
+		</div>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<div class="box1">
+			👾
+		</div>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<div class="box1"> 
+			👾
+		</div>
+	</span>
+	<br><br><br>
+	<span>
+		<div class="box1">
+			👾
+		</div>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<div class="box1">
+			👾
+		</div>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<div class="box1"> 
+			👾
+		</div>
+	</span>
+<script>
+    $(document).ready(function () {
+        $('.floating-logo').each(function () {
+            $(this).css({
+                left: Math.random() * ($(window).width()  - 100),
+                top:  Math.random() * ($(window).height() - 100)
+            });
+        });
+
+        $('*[data-link]').each(function () {
+            $(this).bind('click touch', function () {
+                location.href = $(this).data().link;
+            });
+        });
+
+        var mailinglistFormVisible = false;
+        var $form = $('.mailing-list');
+
+        $('.btn-mailinglist').bind('touchstart mousedown', function (e) {
+            showForm(e);
+        });
+
+        $('.btn-close').bind('touchstart mousedown', function (e) {
+            hideForm(e);
+        });
+
+        function showForm(e) {
+            console.log('show form');
+            $('.content').addClass('blurry');
+            $form.addClass('visible');
+            mailinglistFormVisible = true;
+            if (e) {
+                e.preventDefault();
+                return false;
+            }
+        }
+
+        function hideForm(e) {
+            if (mailinglistFormVisible) {
+                $form.removeClass('visible');
+                $('.content').removeClass('blurry');
+                mailinglistFormVisible = false;
+                if (e) {
+                    e.preventDefault();
+                    return false;
+                }
+            }
+        }
+
+        if(window.location.hash) {
+            var hash = window.location.hash.substring(1);
+            if (hash === 'subscribe') {
+                showForm();
+            }
+        }
+    });
+</script>
+</body>
+</html>
