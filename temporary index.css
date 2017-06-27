@@ -1,12 +1,12 @@
 body{
-	background-color:black;
+	background-color:yellow;
 	font-family: 'Inconsolata', monospace;
-	color:yellow;
+	color:magenta;
 	margin-top: 6%;
 	text-align:center;
 	position: relative;
 	font-size: 20px;
-    cursor:cell;
+    cursor:mouse;
 }
 
 .lalala{
@@ -33,7 +33,7 @@ body{
 	transition-duration: 2s;
 }
 .dis{
-	color: yellow;
+	color: magenta;
 	opacity: 1;
 	transition: 0.5s,30s;
 }
@@ -43,7 +43,7 @@ body{
 	transition-duration:0.5s;
 }
 .dis2{
-	color:yellow;
+	color:magenta;
 	opacity: 1;
 	transition:0.5s,0.5s;
 }
@@ -52,5 +52,5 @@ body{
 	transition-duration: 0.5s;
 }
 .nothing{
-	color: yellow;
+	color: magenta;
 }
