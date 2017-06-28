@@ -1,12 +1,30 @@
 body{
-	background-color:yellow;
+	background-color:#00e6ac;
 	font-family: 'Inconsolata', monospace;
 	color:magenta;
-	margin-top: 6%;
+	margin-top: 7%;
+	margin-bottom: 0%;
+	margin-left: 20%;
+	margin-right: 20%;
 	text-align:center;
 	position: relative;
 	font-size: 20px;
-    cursor:mouse;
+    border-style: solid;
+    padding-top: 2%;
+    padding-right: 2%;
+    border-color: black;
+    padding-left: 2%;
+}
+
+.text{
+	padding-left: 6%;
+	width: 300px;
+	height: 300px;
+	text-align: left;
+	border-style: solid;
+	border-width: 2px;
+	border-color: blue;
+	color: black;
 }
 
 .lalala{
@@ -15,22 +33,26 @@ body{
     left: 50%;
     transform: translate(-50%, 0);
     transition:0.5s 20s;
+    mix-blend-mode: difference;
 }
 .lalala:hover{
 	opacity: 0;
-	transition-duration: 0.5s;
+	transition-duration: 0.2s;
+	mix-blend-mode: difference;
 }
 .la2{
 	opacity: 0;
 	position: fixed;
 	left: 50%;
 	transform:translate(-50%,0);
+	mix-blend-mode: difference;
 
 }
 
 .la2:hover{
 	opacity: 1;
 	transition-duration: 2s;
+	mix-blend-mode: difference;
 }
 .dis{
 	color: magenta;
@@ -53,4 +75,85 @@ body{
 }
 .nothing{
 	color: magenta;
+}
+
+.fixeddate{
+	background-color: white;
+	position: fixed;
+	top: 1%;
+	text-align: center;
+}
+
+.fixedInfo{
+	width: 500px;
+	position: fixed;
+	text-align: center;
+	background-color: #ffff4d;
+	font-size: 15px;
+	width: 75%;
+	position: fixed;
+	left: 50%;
+	bottom: 4%;
+	margin-left: -37.5%;
+}
+.floating-logo {
+	position:fixed;
+	left: 30%;
+	top: 50%;
+	width:50px;
+	height:50px;
+	background-size: 88%;
+	background-repeat:no-repeat;
+	cursor: pointer;
+	padding:5px;
+	border-radius:50%;
+	background-position: 50% 50%;
+	mix-blend-mode: difference;
+}
+
+.floating-logo:hover {
+	background-color:#00ff00;
+}
+
+.floating-logo1 {
+	position:fixed;
+	left: 60%;
+	top: 50%;
+	width:50px;
+	height:50px;
+	background-size: 88%;
+	background-repeat:no-repeat;
+	cursor: pointer;
+	padding:5px;
+	border-radius:20%;
+	background-position: 50% 50%;
+	mix-blend-mode: difference;
+}
+
+.floating-logo1:hover {
+	background-color:white;
+}
+
+.floating-logo2 {
+	position:fixed;
+	left: 65%;
+	top: 70%;
+	width:50px;
+	height:50px;
+	background-size: 88%;
+	background-repeat:no-repeat;
+	cursor: pointer;
+	padding:5px;
+	background-position: 50% 50%;
+	mix-blend-mode: difference;
+}
+
+.floating-logo2:hover {
+	background-color:green;
+}
+
+.skypiece{
+	text-align: right;
+	mix-blend-mode: difference;
+
 }

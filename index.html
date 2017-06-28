@@ -7,33 +7,103 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-
+<p class="fixeddate">
+<span id="hours"></span><span>:00, </span>
+<span id="date"></span><span>th </span>
+<span id="month"></span><span>,</span>
+<span>China Time</span>
+</p>
 <img src="images/2123.jpg" width="350" height="210"  class="lalala">
 <img src="images/16-11-16-21-05-53-053_deco.jpg" width="350" height="210"  class="la2">
 
 <br><br><br>
-<br><br><br><br><br><br><br><br><br>
-<br>
-<p class="dis">
-zzzzzzzzzz
-</p>
-<p class="dis">
-Wake up!
-</p>
-<p class="dis">
-wake upppp!
-</p>
-<p class="dis">Summer is cominggggg!
-</p>
-<p class="dis">
-</p>
-<p>
+<br><br><br>
+<div class="text">
+	<p class="dis">
+	<br>
+	</p>
+	<p class="dis">
+	Wake up!
+	</p>
+	<p class="dis">
+	wake upppp!
+	</p>
+	<p class="dis">Summer is cominggggg!
+	</p>
+	<p class="dis">
+	</p>
+	<p>
 
-<p class="dis">(´,,•∀•,,`)</p><stan class="dis">
-Maybe a </stan><a href="stars.html" class="nothing">star</a> <stan class="dis">could wake it up </stan>
-</p>
+	<p class="dis">(´,,•∀•,,`)</p><stan class="dis">
+	Maybe a </stan><a href="stars.html" class="nothing">star</a> <stan class="dis">could wake it up </stan>
+	</p>
+
+
+</div>
+	<p class="skypiece">SKY PIECE I<br>
+	————Yoko Ono<br><br>
+	Towards the end of the Second World Warm,<br> I looked like a little ghost because of the food shortage. <br>I was hungry. <br>It was getting easier to just lie down and watch the sky. <br>That’s when I fell in love with the sky, <br>I think.<br><br><br><br>
+	Since then, <br>all my life, <br>I have been in love with the sky. <br>Even when everything was falling apart around me, <br>the sky was always there for me. <br>It was the only constant factor in my life,<br> which kept changing with the speed of light and lightning. <br>As I told myself then,<br> I could never give up on life as long as the sky was there.
+
+	Tell us when you first noticed the sky.
+	Tell us when you first noticed that the sky was beautiful.<br>	</p>
+
+
 <br><br>
-<p class="dis">To come | Last updated: 06/27/2017 | Hana Ruoxi Li</p>
 
+
+<img src="images/purplestar1.png" width="50px" height="50px" class="floating-logo">
+<img src="images/purplestar2.png" width="50px" height="50px" class="floating-logo1">
+<img src="images/purplestar3.png" width="50px" height="50px" class="floating-logo2">
+
+<div class="fixedInfo">To come | Last updated: 06/27/2017 | Hana Ruoxi Li</div>
+
+
+
+<script>
+var d= new Date();
+var h = d.getHours();
+var day = d.getDate();
+var month=d.getMonth();
+if(month==0){
+	month="January"
+}
+if(month==1){
+	month="February"
+}
+if(month==2){
+	month="March"
+}
+if(month==3){
+	month="April"
+}
+if(month==4){
+	month="May"
+}
+if(month==5){
+	month="June"
+}
+if(month==6){
+	month="July"
+}
+if(month==7){
+	month="August"
+}
+if(month==8){
+	month="September"
+}
+if(month==9){
+	month="October"
+}
+if(month==10){
+	month="November"
+}
+if(month==11){
+	month="December"
+}
+document.getElementById("hours").innerHTML=h;
+document.getElementById("date").innerHTML=day;
+document.getElementById("month").innerHTML=month;
+</script>
 </body>
 </html>
