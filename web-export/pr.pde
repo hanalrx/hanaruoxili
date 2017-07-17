@@ -1,5 +1,5 @@
 int
-  n = 200,
+  n = 2000,
   w = 80,
   h = 40,
   w2 = w/2,
@@ -15,7 +15,7 @@ float[][]
  
 void setup()
 {
-    size(1600,1600);
+    size(1600,800);
     background(-1);
     cursor(CROSS);
     stroke(#DF52FF,50);

@@ -3,7 +3,6 @@
 
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<title>pr : Built with Processing and Processing.js</title>
-		<link rel="icon"  type="image/x-icon" href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAQAAVzABAEAjBQAaDwYAWjUGAGE6CQBrQQ0ATS8PAFhAJwBUQC8AbFI6AHVXPACBZk4A4NrWAPb19QAAAAAAAMmZmZmZmgAJIwAAAAAAcMIjPjA+PjAKpxIuMDMzMAm0Ii4zMzMACaIiLt3dMAAJtyIuIzPQAAm0Un5yM+IzKLRkfncy4iIotRF+dyLkIiq0QX53F+EiGrQUTkd34iIatEVu7u5iIVrBVVRBRFRVbAtGZGZla2uwAMu7u7u8vADAAwAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAADAAwAA" />
 		<meta name="Generator" content="Processing" />
 		<!-- - - - - - - - - - - - - - - - - - - - - 
 		+
@@ -15,16 +14,24 @@
 		+ - - - - - - - - - - - - - - - - - - - - -->
 		<style type="text/css">
 	body {
-	  background-color: white; color: #bbb; line-height: normal;
-	  font-family: Lucida Grande, Lucida Sans, Arial, Helvetica Neue, Verdana, Geneva, sans-serif;
-	  font-size: 11px; font-weight: normal; text-decoration: none;
-		  line-height: 1.5em;
+	  background-color: white; 
+	  color: black; 
+	  line-height: normal;
+	  font-size: 20px; font-weight: normal; text-decoration: none;
+		margin-top: 0%;
+		margin: 10%;
+		margin-left: 20%;
+		margin-right: 20%;
+		padding: 10%;
+		border-style: none;
+		font-family: 'Roboto Mono', monospace;
 	}
-	a img { 
-		border: 0px solid transparent;
-	}
-	a, a:link, a:visited, a:active, a:hover { 
-		color: #cdcdcd; text-decoration: underline;
+
+	a{
+		color: black;
+		text-decoration: none;
+		font-size: 20px;
+		background-color: white
 	}
 	.fixeddate{
 			background-color: white;
@@ -59,11 +66,12 @@
 		margin-bottom: 1em; font-size: 1.65em;
 	}
 	canvas { 
-		display: block; 
-		position: fixed;
-		left: 50%;
-		outline: 0px; 
-		margin-bottom: 1.5em; 
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		z-index:-1;
 	}
 	#content { 
 		margin:0px;
@@ -211,7 +219,7 @@ document.getElementById("month").innerHTML=month;
 		<div id="content">
 			<div>
 				<canvas id="pr" data-processing-sources="pr.pde" 
-						width="1000" height="1000">
+						width="1000" height="2000">
 				</canvas>
 		</div>
 
