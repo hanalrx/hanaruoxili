@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WELCOME - HANA</title>
+
+	<style type="text/css">
+		body{
+			margin-top: 0%;
+			margin: 10%;
+			margin-left: 20%;
+			margin-right: 20%;
+			padding: 10%;
+			border-style: none;
+			font-family: 'Roboto Mono', monospace;
+		}
+		.fixeddate{
+			background-color: white;
+			position: fixed;
+			left: 3%;
+			top: 1%;
+			text-align: center;
+		}
+		a{
+			color: black;
+		}
+
+		#circle {
+	width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+		.buttonstyle{
+			background-color: #9535fc; 
+			color: white; /* Gray */ 
+			border:none;
+			font-size: 18px;
+			border-radius: 1px;
+		}
+	</style>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+</head>
+<body>
+
+<canvas width="1626" height="635" style="position: absolute;">
+</canvas>
+
+<p class="fixeddate">
+<span id="hours"></span><span>:00, </span>
+<span id="date"></span><span>th </span>
+<span id="month"></span><span>,</span>
+<span>China Time</span>
+</p>
+<br>
+
+ <div width="100px" height="200px">
+	<button class="buttonstyle" onclick="myFunction1()">Design</button>
+		<br>
+	<div id="myDIV1" style="display: none;">
+		<a href="musicwall.html">Tangible Music Wall</a>
+	</div>
+
+	<button class="buttonstyle" onclick="myFunction()">Animation and Micro film</button>
+		<br>
+	<div id="myDIV" style="display: none;">
+		<a href="theInventionOfSolitude.html">The Invention of Solitude (Micro film)</a><br>
+		<a href="loop.html">The loop - A tale from ancient China</a><br>
+		<a href="experiencevisualization.html">A visualization video on experience in Hospital</a><br>
+		<a href="audioreactivevisuals.html">Practice on Audio reactive visuals</a>
+	</div>
+
+	<button class="buttonstyle" onclick="myFunction2()">Articles</button>
+		<br>
+	<div id="myDIV2" style="display: none;">
+		<a href=".html">Design thinking</a><br>
+		<a href=".html">Gamefication + UED</a>
+	</div>
+
+
+	<button class="buttonstyle" onclick="myFunction3()">Web Experiments</button>
+		<br>
+	<div id="myDIV3" style="display: none;">
+		<a href=".html">Concrete Poem</a> <br>
+		<a href="musicwall.html">eat.earth (working in process)</a>
+	</div>
+ </div>
+
+<script>
+
+function myFunction() {
+    var x = document.getElementById('myDIV');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+
+function myFunction1() {
+    var x = document.getElementById('myDIV1');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+
+function myFunction2(){
+	var x = document.getElementById("myDIV2");
+	if(x.style.display === "none") {
+		x.style.display="block";
+	} else{
+		x.style.display="none";
+	}
+}
+
+function myFunction3(){
+	var x = document.getElementById("myDIV3");
+	if (x.style.display==="none") {
+		x.style.display="block";
+	} else{
+		x.style.display="none";
+	}
+}
+
+
+</script>
+<script>
+var d= new Date();
+var h = d.getHours();
+var day = d.getDate();
+var month=d.getMonth();
+if(month==0){
+	month="January"
+}
+if(month==1){
+	month="February"
+}
+if(month==2){
+	month="March"
+}
+if(month==3){
+	month="April"
+}
+if(month==4){
+	month="May"
+}
+if(month==5){
+	month="June"
+}
+if(month==6){
+	month="July"
+}
+if(month==7){
+	month="August"
+}
+if(month==8){
+	month="September"
+}
+if(month==9){
+	month="October"
+}
+if(month==10){
+	month="November"
+}
+if(month==11){
+	month="December"
+}
+document.getElementById("hours").innerHTML=h;
+document.getElementById("date").innerHTML=day;
+document.getElementById("month").innerHTML=month;
+
+</script>
+
+</body>
+</html>

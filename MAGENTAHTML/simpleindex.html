@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		WELCOME - HANA RUOXI LI
+	</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<style type="text/css">
+		body{
+			margin-top: 10%;
+			margin: 20%;
+			padding: 10%;
+			border-style: solid;
+			font-family: 'Open Sans', sans-serif;
+		}
+
+		.fixeddate{
+			background-color: white;
+			position: fixed;
+			left: 3%;
+			top: 1%;
+			text-align: center;
+		}
+		a{
+			color: black;
+		}
+		#myDIV {
+		    width: 100%;
+		    padding: 50px 0;
+		    text-align: center;
+		    background-color: lightblue;
+		    margin-top:20px;
+		}
+	</style>
+</head>
+<body>
+<p class="fixeddate">
+<span id="hours"></span><span>:00, </span>
+<span id="date"></span><span>th </span>
+<span id="month"></span><span>,</span>
+<span>China Time</span>
+</p>
+<a href="">Design</a>
+<br>
+<a href="">Fabrication</a>
+<br>
+<button onclick="myFunction()">123</button>
+<div id="myDIV">123
+</div>
+<button onclick="myFunction()">Click Me</button>
+
+<div id="myDIV">
+  This is my DIV element.
+</div>
+
+
+<script>
+
+function myFunction() {
+    var x = document.getElementById('myDIV');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+
+var d= new Date();
+var h = d.getHours();
+var day = d.getDate();
+var month=d.getMonth();
+if(month==0){
+	month="January"
+}
+if(month==1){
+	month="February"
+}
+if(month==2){
+	month="March"
+}
+if(month==3){
+	month="April"
+}
+if(month==4){
+	month="May"
+}
+if(month==5){
+	month="June"
+}
+if(month==6){
+	month="July"
+}
+if(month==7){
+	month="August"
+}
+if(month==8){
+	month="September"
+}
+if(month==9){
+	month="October"
+}
+if(month==10){
+	month="November"
+}
+if(month==11){
+	month="December"
+}
+document.getElementById("hours").innerHTML=h;
+document.getElementById("date").innerHTML=day;
+document.getElementById("month").innerHTML=month;
+}
+
+
+</script>
+</body>
+</html>
