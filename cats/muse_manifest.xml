@@ -1,7 +1,7 @@
-<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="cat.com" resolutions="1x,2x" timestamp="1502740889821">
+<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="cat.com" resolutions="1x,2x" timestamp="1502742181079">
   <folder name="css">
     <file name="site_global.css" crc="4052507572"/>
-    <file name="untitled-2.css" crc="3822145125" ref="untitled-2"/>
+    <file name="untitled-2.css" crc="4150800074" ref="untitled-2"/>
     <file name="iefonts_untitled-2.css" crc="3891981" ref="untitled-2"/>
     <file name="index.css" crc="64229664" ref="index"/>
   </folder>
@@ -19,8 +19,8 @@
     <file name="pasted svg 12645x109_poster_.png" crc="4159703095" ref="untitled-2"/>
     <file name="4r8a7188080.jpg" crc="3901349787" seo="true" ref="untitled-2"/>
     <file name="4r8a7188080_2x.jpg" crc="150182168" seo="true" ref="untitled-2"/>
-    <file name="_r8a7291.jpg" crc="316034715" seo="true" ref="untitled-2"/>
-    <file name="_r8a7291_2x.jpg" crc="3914088031" seo="true" ref="untitled-2"/>
+    <file name="_r8a7291.jpg" crc="4168089762" seo="true" ref="untitled-2"/>
+    <file name="_r8a7291_2x.jpg" crc="53768448" seo="true" ref="untitled-2"/>
     <file name="research11.jpg" crc="98163642" seo="true" ref="untitled-2"/>
     <file name="research11_2x.jpg" crc="528895498" seo="true" ref="untitled-2"/>
     <file name="research2.jpg" crc="3765071638" seo="true" ref="untitled-2"/>
@@ -64,6 +64,6 @@
     <file name="_r8a7212.jpg" crc="4084327161" seo="true" ref="untitled-2"/>
     <file name="_r8a7212_2x.jpg" crc="4019538222" seo="true" ref="untitled-2"/>
   </folder>
-  <file name="index.html" crc="149172060" seo="true" mt="1502739489653" redirect="false"/>
-  <file name="untitled-2.html" crc="292075603" seo="true" mt="1502740762373" redirect="true"/>
+  <file name="index.html" crc="149172060" seo="true" mt="1502742115207" redirect="false"/>
+  <file name="untitled-2.html" crc="3806253427" seo="true" mt="1502742120429" redirect="true"/>
 </manifest>
