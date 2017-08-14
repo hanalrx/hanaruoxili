@@ -301,6 +301,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://cat.com/images/_r8a7296.jpg</loc>
+    <lastmod>2017-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://cat.com/images/_r8a7296_2x.jpg</loc>
+    <lastmod>2017-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://cat.com/index.html</loc>
     <lastmod>2017-08-15</lastmod>
     <changefreq>weekly</changefreq>
