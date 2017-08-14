@@ -1,5 +1,9 @@
 int
+<<<<<<< HEAD:web-export/pr/pr.pde
   n = 1000,
+=======
+  n = 200,
+>>>>>>> parent of 2d9d6b9... 啊啊啊:web-export/pr.pde
   w = 80,
   h = 40,
   w2 = w/2,
@@ -15,7 +19,7 @@ float[][]
  
 void setup()
 {
-    size(1600,800);
+    size(1600,1600);
     background(-1);
     cursor(CROSS);
     stroke(#DF52FF,50);
