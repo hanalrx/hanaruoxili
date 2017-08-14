@@ -277,6 +277,30 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://cat.com/images/_r8a7212617x412.jpg</loc>
+    <lastmod>2017-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://cat.com/images/_r8a7212617x412_2x.jpg</loc>
+    <lastmod>2017-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://cat.com/images/_r8a7208616x411.jpg</loc>
+    <lastmod>2017-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://cat.com/images/_r8a7208616x411_2x.jpg</loc>
+    <lastmod>2017-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://cat.com/index.html</loc>
     <lastmod>2017-08-15</lastmod>
     <changefreq>weekly</changefreq>

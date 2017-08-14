@@ -1,7 +1,7 @@
-<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="cat.com" resolutions="1x,2x" timestamp="1502743284388">
+<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="cat.com" resolutions="1x,2x" timestamp="1502743478841">
   <folder name="css">
     <file name="site_global.css" crc="4052507572"/>
-    <file name="untitled-2.css" crc="4278354759" ref="untitled-2"/>
+    <file name="untitled-2.css" crc="4083936925" ref="untitled-2"/>
     <file name="iefonts_untitled-2.css" crc="3891981" ref="untitled-2"/>
     <file name="index.css" crc="64229664" ref="index"/>
     <file name="untitled-3.css" crc="107326050" ref="untitled-3"/>
@@ -61,12 +61,16 @@
     <file name="pasted image 2999x1680_2x.jpg" crc="4262098219" seo="true" ref="untitled-2:untitled-3"/>
     <file name="pasted image 2999x1656.jpg" crc="3916895817" seo="true" ref="untitled-2:untitled-3"/>
     <file name="pasted image 2999x1656_2x.jpg" crc="3829052722" seo="true" ref="untitled-2:untitled-3"/>
-    <file name="_r8a7208.jpg" crc="3820534147" seo="true" ref="untitled-2:untitled-3"/>
-    <file name="_r8a7208_2x.jpg" crc="3981797116" seo="true" ref="untitled-2:untitled-3"/>
-    <file name="_r8a7212.jpg" crc="4084327161" seo="true" ref="untitled-2:untitled-3"/>
-    <file name="_r8a7212_2x.jpg" crc="4019538222" seo="true" ref="untitled-2:untitled-3"/>
+    <file name="_r8a7208.jpg" crc="3842979040" seo="true" ref="untitled-2:untitled-3"/>
+    <file name="_r8a7208_2x.jpg" crc="509032960" seo="true" ref="untitled-2:untitled-3"/>
+    <file name="_r8a7212.jpg" crc="4079616530" seo="true" ref="untitled-2:untitled-3"/>
+    <file name="_r8a7212_2x.jpg" crc="3805065764" seo="true" ref="untitled-2:untitled-3"/>
+    <file name="_r8a7212617x412.jpg" crc="144988957" seo="true" ref="untitled-2"/>
+    <file name="_r8a7212617x412_2x.jpg" crc="3805065764" seo="true" ref="untitled-2"/>
+    <file name="_r8a7208616x411.jpg" crc="4140376632" seo="true" ref="untitled-2"/>
+    <file name="_r8a7208616x411_2x.jpg" crc="4020609207" seo="true" ref="untitled-2"/>
   </folder>
   <file name="index.html" crc="149172060" seo="true" mt="1502742115207" redirect="false"/>
-  <file name="untitled-2.html" crc="3806253427" seo="true" mt="1502742486975" redirect="true"/>
+  <file name="untitled-2.html" crc="131446446" seo="true" mt="1502743467961" redirect="true"/>
   <file name="untitled-3.html" crc="4263080586" seo="true" mt="1502743272903" redirect="true"/>
 </manifest>
