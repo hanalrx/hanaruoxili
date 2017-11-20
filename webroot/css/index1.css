@@ -1,0 +1,135 @@
+#content,html,body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#left{
+    float: left;
+    width: 15%;
+    background: rgb(229,229,229);
+    height: 100%;
+    overflow: auto;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    position: relative;
+}
+
+#right{
+    float: right;
+    width: 81%;
+    background: white;
+    height: 100%;
+    overflow: auto;
+    padding: none;
+    position: relative;
+}
+
+.main-nav li.folder>a {
+    cursor: pointer;
+}
+
+a{
+ cursor: pointer;
+}
+
+
+.fixeddate{
+    background-color: white;
+    position: fixed;
+    right: 3%;
+    top: 1%;
+    text-align: center;
+    z-index: 100;
+    color: white;
+    background-color: #9535fc;
+
+
+}
+.myname{
+    font-family: 'Roboto Mono',monospace;
+}
+
+.myintro{
+    position: absolute;
+    bottom: 5%;
+    letter-spacing: 80%;
+    opacity: 0.5;
+}
+
+.title1{
+    font-size:200%;
+    font-family: 'Roboto';
+    line-height: 150%;
+    background: #9535fc;
+    color: white;
+    border-style: none;
+    border-width: none;
+    border-radius: none;
+    border-color: #9535fc;
+    text-align: left;
+}
+.title1:hover{
+    color: #9535fc;
+    font-family: 'Roboto';
+    background:none;
+    transition-duration: 0.35s;
+}
+
+.title2{
+    font-size: 150%;
+    font-family: 'Karla',sans-serif;
+    color: black;
+}
+
+.title2:hover{
+    letter-spacing: 120%;
+    font-family: 'Karla',sans-serif;
+    color: black;
+}
+
+.common{
+    font-family: 'Roboto';
+    display: none;
+    color: black;
+    opacity: 0.8;
+    padding-left: 8%;
+    text-align: justify;
+}
+.process{
+    font-size: 200%;
+}
+
+.content{
+    margin-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+}
+
+.subtitle{
+    font-size: 170%;
+    font-family: 'Karla',sans-serif;
+}
+
+.subsubtitle{
+    font-size: 130%;
+    font-family: 'Karla',sans-serif;
+}
+
+.zhengwen{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    font-size: 105%;
+} 
+
+.divborder{max-width:1000px;margin:auto;border:0px solid #73AD21;}
+
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}

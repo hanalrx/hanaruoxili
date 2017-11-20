@@ -1,10 +1,13 @@
-<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="cat.com" resolutions="1x,2x" timestamp="1502762659069">
+<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="cat.com" resolutions="1x,2x" timestamp="1503603063810">
+  <folder name="assets">
+    <file name="arduino1.gif" crc="345741447" seo="true" mt="1503600722000"/>
+  </folder>
   <folder name="css">
     <file name="site_global.css" crc="4052507572"/>
     <file name="untitled-2.css" crc="3911567130" ref="untitled-2"/>
     <file name="iefonts_untitled-2.css" crc="40897441" ref="untitled-2"/>
-    <file name="untitled-3.css" crc="4019558513" ref="untitled-3"/>
-    <file name="iefonts_untitled-3.css" crc="15820294" ref="untitled-3"/>
+    <file name="untitled-3.css" crc="229108547" ref="untitled-3"/>
+    <file name="iefonts_untitled-3.css" crc="3901845723" ref="untitled-3"/>
     <file name="index.css" crc="64229664" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -19,18 +22,16 @@
     <file name="u172-m-grad.png" crc="319441696" ref="untitled-2"/>
     <file name="pasted svg 12645x109.svg" crc="4219056505" ref="untitled-2:untitled-3"/>
     <file name="pasted svg 12645x109_poster_.png" crc="4159703095" ref="untitled-2:untitled-3"/>
-    <file name="4r8a7188080.jpg" crc="3901349787" seo="true" ref="untitled-2:untitled-3"/>
-    <file name="4r8a7188080_2x.jpg" crc="150182168" seo="true" ref="untitled-2:untitled-3"/>
-    <file name="_r8a7291.jpg" crc="4168089762" seo="true" ref="untitled-3"/>
-    <file name="_r8a7291_2x.jpg" crc="53768448" seo="true" ref="untitled-3"/>
+    <file name="4r8a7188080.jpg" crc="3901349787" seo="true" ref="untitled-2"/>
+    <file name="4r8a7188080_2x.jpg" crc="150182168" seo="true" ref="untitled-2"/>
     <file name="research11.jpg" crc="98163642" seo="true" ref="untitled-2:untitled-3"/>
     <file name="research11_2x.jpg" crc="528895498" seo="true" ref="untitled-2:untitled-3"/>
     <file name="research2.jpg" crc="3765071638" seo="true" ref="untitled-2:untitled-3"/>
     <file name="research2_2x.jpg" crc="3877459668" seo="true" ref="untitled-2:untitled-3"/>
     <file name="research3.jpg" crc="424045297" seo="true" ref="untitled-2:untitled-3"/>
     <file name="research3_2x.jpg" crc="3945607163" seo="true" ref="untitled-2:untitled-3"/>
-    <file name="撸猫-08.jpg" crc="4128412453" seo="true" ref="untitled-2:untitled-3"/>
-    <file name="撸猫-08_2x.jpg" crc="4227707764" seo="true" ref="untitled-2:untitled-3"/>
+    <file name="撸猫-08.jpg" crc="4128412453" seo="true" ref="untitled-2"/>
+    <file name="撸猫-08_2x.jpg" crc="4227707764" seo="true" ref="untitled-2"/>
     <file name="原理图-02.jpg" crc="4280285063" seo="true" ref="untitled-2:untitled-3"/>
     <file name="原理图-02_2x.jpg" crc="4128451247" seo="true" ref="untitled-2:untitled-3"/>
     <file name="pasted image 1251x941.jpg" crc="4285967406" seo="true" ref="untitled-2:untitled-3"/>
@@ -47,10 +48,10 @@
     <file name="pasted image 2999x1669_2x.jpg" crc="4204146027" seo="true" ref="untitled-2:untitled-3"/>
     <file name="pasted image 2996x1666.jpg" crc="338586647" seo="true" ref="untitled-2:untitled-3"/>
     <file name="pasted image 2996x1666_2x.jpg" crc="3824623070" seo="true" ref="untitled-2:untitled-3"/>
-    <file name="用这张1.jpg" crc="4108199000" seo="true" ref="untitled-2:untitled-3"/>
-    <file name="用这张1_2x.jpg" crc="320945242" seo="true" ref="untitled-2:untitled-3"/>
-    <file name="用这张2.jpg" crc="3853015346" seo="true" ref="untitled-2:untitled-3"/>
-    <file name="用这张2_2x.jpg" crc="4184133515" seo="true" ref="untitled-2:untitled-3"/>
+    <file name="用这张1.jpg" crc="4108199000" seo="true" ref="untitled-2"/>
+    <file name="用这张1_2x.jpg" crc="320945242" seo="true" ref="untitled-2"/>
+    <file name="用这张2.jpg" crc="3853015346" seo="true" ref="untitled-2"/>
+    <file name="用这张2_2x.jpg" crc="4184133515" seo="true" ref="untitled-2"/>
     <file name="pasted image 2999x1676.jpg" crc="3888270250" seo="true" ref="untitled-2:untitled-3"/>
     <file name="pasted image 2999x1676_2x.jpg" crc="3761177049" seo="true" ref="untitled-2:untitled-3"/>
     <file name="pasted image 2999x1674.jpg" crc="110936659" seo="true" ref="untitled-2:untitled-3"/>
@@ -69,11 +70,18 @@
     <file name="pasted image 2670x1636_2x.jpg" crc="4273740266" seo="true" ref="untitled-2"/>
     <file name="pasted image 2770x1844.jpg" crc="3812799092" seo="true" ref="untitled-2"/>
     <file name="pasted image 2770x1844_2x.jpg" crc="303103738" seo="true" ref="untitled-2"/>
-    <file name="u526-grad.png" crc="4151541871" ref="untitled-3"/>
-    <file name="u526-r-grad.png" crc="4091336675" ref="untitled-3"/>
-    <file name="u526-m-grad.png" crc="168756582" ref="untitled-3"/>
+    <file name="pasted image 1227x1165.jpg" crc="170217036" seo="true" ref="untitled-3"/>
+    <file name="pasted image 1227x1165_2x.jpg" crc="140709166" seo="true" ref="untitled-3"/>
+    <file name="千图样机-crop-u630.jpg" crc="4071284246" ref="untitled-3"/>
+    <file name="千图样机-crop-u630_2x.jpg" crc="4284905184" ref="untitled-3"/>
+    <file name="猫发情流程 -recovered--03-crop-u636.jpg" crc="4019329165" ref="untitled-3"/>
+    <file name="猫发情流程 -recovered--03-crop-u636_2x.jpg" crc="28004797" ref="untitled-3"/>
+    <file name="pasted image 1280x720.jpg" crc="104590780" seo="true" ref="untitled-3"/>
+    <file name="pasted image 1280x720_2x.jpg" crc="4024639319" seo="true" ref="untitled-3"/>
+    <file name="arduino1.gif" crc="345741447" seo="true" ref="untitled-3"/>
+    <file name="arduino1_2x.gif" crc="345741447" seo="true" ref="untitled-3"/>
   </folder>
-  <file name="index.html" crc="149172060" seo="true" mt="1502743520839" redirect="false"/>
+  <file name="index.html" crc="149172060" seo="true" mt="1503598705630" redirect="false"/>
   <file name="untitled-2.html" crc="397628561" seo="true" mt="1502744074250" redirect="true"/>
-  <file name="untitled-3.html" crc="3911618315" seo="true" mt="1502762634076" redirect="true"/>
+  <file name="untitled-3.html" crc="2432100" seo="true" mt="1503601859849" redirect="true"/>
 </manifest>
