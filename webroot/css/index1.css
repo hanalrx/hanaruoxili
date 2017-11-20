@@ -11,7 +11,7 @@ body{
 
 #left{
     float: left;
-    width: 17%;
+    width: 19%;
     background: rgb(229,229,229);
     height: 100%;
     overflow: auto;
@@ -22,11 +22,12 @@ body{
 
 #right{
     float: right;
-    width: 79%;
-    background: white;
+    width: 80%;
+    background: rgb(229,229,229);
     height: 100%;
     overflow: auto;
-    padding: none;
+    padding-left: 3.7%;
+    padding-right: 4.3%;
     position: relative;
 }
 
@@ -65,7 +66,6 @@ a{
 .title1{
     font-size:180%;
     font-family: 'Roboto';
-    line-height: 150%;
     background: #9535fc;
     color: white;
     border-style: none;
@@ -101,8 +101,9 @@ a{
     padding-left: 8%;
     text-align: justify;
 }
-.process{
-    font-size: 200%;
+.headline{
+    font-family: 'Roboto';
+    font-size: 250%;
 }
 
 .content{
@@ -113,12 +114,12 @@ a{
 }
 
 .subtitle{
-    font-size: 170%;
+    font-size: 190%;
     font-family: 'Karla',sans-serif;
 }
 
 .subsubtitle{
-    font-size: 130%;
+    font-size: 140%;
     font-family: 'Karla',sans-serif;
 }
 
@@ -133,3 +134,37 @@ a{
 .mySlides {display:none}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0}
+
+
+
+.embed-container{ 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+    height: auto; 
+} 
+                        
+.embed-container iframe, .embed-container object, .embed-container embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+
+.picnote{
+    font-size: 100%;
+    opacity: 0.6;
+    font-family: 'Karla';
+}
+
+.underline{
+    text-decoration: underline;
+    transition-duration:0.2s;
+}
+
+.underline:hover{
+    color:#9535fc;
+}
