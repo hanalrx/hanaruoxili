@@ -11,7 +11,7 @@ body{
 
 #left{
     float: left;
-    width: 15%;
+    width: 17%;
     background: rgb(229,229,229);
     height: 100%;
     overflow: auto;
@@ -22,7 +22,7 @@ body{
 
 #right{
     float: right;
-    width: 81%;
+    width: 79%;
     background: white;
     height: 100%;
     overflow: auto;
@@ -63,7 +63,7 @@ a{
 }
 
 .title1{
-    font-size:200%;
+    font-size:180%;
     font-family: 'Roboto';
     line-height: 150%;
     background: #9535fc;
@@ -82,7 +82,7 @@ a{
 }
 
 .title2{
-    font-size: 150%;
+    font-size: 130%;
     font-family: 'Karla',sans-serif;
     color: black;
 }
