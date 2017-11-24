@@ -52,7 +52,8 @@ a{
 
 }
 .myname{
-    font-family: 'Roboto Mono',monospace;
+    font-family: 'Roboto';
+    color: #9535fc;
 }
 
 .myintro{
@@ -82,7 +83,7 @@ a{
 }
 
 .title2{
-    font-size: 130%;
+    font-size: 150%;
     font-family: 'Karla',sans-serif;
     color: black;
 }
@@ -90,7 +91,8 @@ a{
 .title2:hover{
     letter-spacing: 120%;
     font-family: 'Karla',sans-serif;
-    color: black;
+    color: #9535fc;
+    transition-duration:0.23s;
 }
 
 .common{
