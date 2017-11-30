@@ -1,0 +1,283 @@
+#content,html,body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* #left{
+    float: left;
+    width: 19.5%;
+    background: rgb(229,229,229);
+    height: 100%;
+    overflow: auto;
+    padding-right: 1.5%;
+    position: relative;
+}
+
+#right{
+    float: right;
+    width:79.5%;
+    background: rgb(229,229,229);
+    height: 100%;
+    overflow: auto;
+    padding-left: 3.7%;
+    padding-right: 4.3%;
+    position: relative;
+}
+ */
+ .content{position:relative;}
+#left{
+    width:260px;
+    background: rgb(229,229,229);
+    height: 100%;
+    overflow: auto;
+}
+
+#right{
+    position:absolute;
+	right:0;
+    width:auto;
+    background: rgb(229,229,229);
+    height: 100%;padding:0 30px;
+    overflow: auto;top:0;
+}
+
+ul.ulOut{width:260px;margin: 0 auto;}
+.main-nav li.folder>a {
+    cursor: pointer;
+}
+
+a{
+ cursor: pointer;
+}
+
+
+.fixeddate{
+      position: fixed;
+    right: 3%;
+    top: -2px;
+    text-align: center;
+    z-index: 100;
+    color: white;
+}
+.fixeddate span{background-color: #9535fc;
+    display: inline-block;
+    vertical-align: middle;}
+.myname{
+    font-family: 'Roboto';
+    color: #9535fc;
+}
+
+.myintro{
+    /* position: absolute;
+    bottom: 5%; */
+    letter-spacing: 80%;
+    opacity: 0.5;
+	padding-left:8%;
+}
+
+.title1{
+    font-size:180%;
+    font-family: 'Roboto';
+    background: #9535fc;
+    color: white;
+    border-style: none;
+    border-width: none;
+    border-radius: none;
+    border-color: #9535fc;
+    text-align: left;
+}
+.title1:hover{
+    color: white;
+    font-family: 'Roboto';
+    background:#9535fc;
+    transition-duration: 0.35s;
+}
+
+.title2{
+    font-size: 150%;
+    font-family: 'Karla',sans-serif;
+    color: black;
+}
+
+.title2:hover{
+    letter-spacing: 120%;
+    font-family: 'Karla',sans-serif;
+    color: #9535fc;
+    transition-duration:0.23s;
+}
+
+.common{
+    font-family: 'Roboto';
+    display: none;
+    color: black;
+    opacity: 0.8;
+    padding-left: 8%;
+    text-align: justify;
+}
+.headline{
+    font-family: 'Roboto';
+    font-size: 250%;
+}
+
+.content{
+    margin-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+}
+
+.subtitle{
+    font-size: 200%;
+    font-family: 'Karla',sans-serif;
+}
+
+
+.subsubtitle{
+    font-size: 140%;
+    font-family: 'Karla',sans-serif;
+}
+
+.subsubsubtitle{
+    font-size: 120%;
+    font-family: 'Karla',sans-serif;
+}
+
+.zhengwen{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    font-size: 105%;
+} 
+.zhengwenda{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    font-size: 135%;
+}
+
+.zhengwenxiao{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    font-size: 95%;
+}
+
+
+.divborder{max-width:1000px;margin:auto;border:0px solid #73AD21;}
+
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+
+
+.embed-container{ 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+    height: auto; 
+} 
+                        
+.embed-container iframe, .embed-container object, .embed-container embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+
+.picnote{
+    font-size: 100%;
+    opacity: 0.6;
+    font-family: 'Karla';
+    line-height: 80%;
+}
+
+.underline{
+    text-decoration: underline;
+    transition-duration:0.2s;
+}
+
+.underline:hover{
+    color:#9535fc;
+}
+
+
+.button{
+    font-size: 400%;
+    color: #9535fc;
+}
+
+.button:hover{
+    color: white;
+    transition-duration:0.2s;
+}
+.hoverimage{
+    border: 5px;
+    border-color: none;
+}
+.hoverimage:hover{
+    border:5px;
+    border-style: solid;
+    border-color: #9535fc;
+    transition-duration:0.5s;
+}
+
+/*add*/
+.folder-collection {position:relative;padding:0 10% 0 18.5%;}
+.folder-collection ul{margin-bottom:5px;}
+li.folder-collection a i{position:absolute;width:14px;height:14px;background:#fff;border:1px solid #9535fc;left:10%;top:14px;display:none;border-radius:50%;}
+li.folder-collection a:hover i{background:#fff;border:1px solid #9535fc;display:block;}
+li.folder-collection.cur a i{background:#9535fc;border:1px solid #9535fc;display:block;}
+#left .myname{padding-top: 20%;font-size:280%;line-height:120%;text-align:center;}
+#topNav{margin-top:20%;}
+.leftCon{display:inline-block;width:49%;padding-right:1%;vertical-align:top;}
+.leftCon p{text-align:justify;}
+.rightCon{display:inline-block;width:50%;vertical-align:top;}
+.leftCon.leftConEx{width:35%;}
+.rightCon.rightConEx{width:64%;}
+.rightCon.rightConEx img{width:49%;}
+
+
+.contentList .inner{display:inline-block;width:24%;vertical-align: top;padding:0 1%;}
+.contentList .inner.innerEx{border:1px solid;padding:3px;}
+.floor{margin-top:50px;}
+*{margin:0; padding:0; list-style:none; }
+.slideBox{ width:100%;position:relative; }
+.slideBox .hd{ height:15px;width:100%;margin-top:-1px;}
+.slideBox .hd ul{ overflow:hidden; zoom:1;padding:0;text-align:center;width: 100%;}
+.slideBox .hd ul li{display:inline-block;*display:inline;*zoom:1;margin-right:10px;  width:14px; height:14px; line-height:14px; text-align:center;background:#fff;border:1px solid #9535fc; cursor:pointer;border-radius:50%;text-indent:-10000px;}
+.slideBox .hd ul li.on{ background:#9535fc; color:#fff; }
+.slideBox .bd{ position:relative;z-index:0;}
+.slideBox .bd ul{padding:0;}
+.slideBox .bd li{ zoom:1; vertical-align:middle; }
+.slideBox .bd img{ width:100%;margin:0 auto; display:block;  }
+
+/* 下面是前/后按钮代码，如果不需要删除即可 */
+.slideBox .prev,
+.slideBox .next{ position:absolute; left:3%; top:50%; margin-top:-25px; display:block; width:32px; height:40px; background:url(images/slider-arrow.png) -110px 5px no-repeat; filter:alpha(opacity=50);opacity:0.5;   }
+.slideBox .next{ left:auto; right:3%; background-position:8px 5px; }
+.slideBox .prev:hover,
+.slideBox .next:hover{ filter:alpha(opacity=100);opacity:1;  }
+.slideBox .prevStop{ display:none;  }
+.slideBox .nextStop{ display:none;  }
+@media screen and (max-width:770px){
+	.fixeddate{top:0;}
+	#left{width:100%;float:none;height:auto;padding-bottom:20px;}
+	#right{width:100%;float:none;}
+	#left .myname{padding-top:42px;text-align:center;padding-left:0;}
+	#left #topNav{min-height:0;height:auto;margin-top:10px;text-align:center;}
+	.myintro{text-align:right;}
+	#left #topNav li a{text-align:left;}
+	.common{width:72%;margin:0 auto;padding-left:0;}
+	.folder-collection{padding:0;}
+	.fixeddate{position:static;width:80%;margin:0 auto;}
+	body{background:#e5e5e5;}
+	 #left{position:static;}
+	 #right{position:static;}
+}
