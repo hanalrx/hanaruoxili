@@ -245,6 +245,7 @@ li.folder-collection.cur a i{background:#9535fc;border:1px solid #9535fc;display
 .leftCon.leftConEx{width:35%;}
 .rightCon.rightConEx{width:64%;}
 .rightCon.rightConEx img{width:49%;}
+.rightCon.rightConEx.rightConEex{width: 49%;}
 
 
 .contentList .inner{display:inline-block;width:24%;vertical-align: top;padding:0 1%;}
