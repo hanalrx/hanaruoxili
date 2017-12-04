@@ -226,6 +226,8 @@ a{
 	border: 5px solid #9535fc;
     transition-duration:0.6s;-webkit-transition: all .6s linear;-moz-transition: all .6s linear;-ms-transition: all .6s linear;-otransition: all .6s linear;}
 
+
+
 /*add*/
 .folder-collection {position:relative;padding:0 10% 0 18.5%;}
 .folder-collection ul{margin-bottom:5px;}
@@ -243,7 +245,7 @@ li.folder-collection.cur a i{background:#9535fc;border:1px solid #9535fc;display
 .leftCon p{text-align:justify;}
 .rightCon{display:inline-block;width:50%;vertical-align:top;}
 .leftCon.leftConEx{width:35%;}
-.rightCon.rightConEx{width:64%;}
+.rightCon.rightConEx{width:63%;}
 .rightCon.rightConEx img{width:49%;}
 .rightCon.rightConEx.rightConEex{width: 49%;}
 
