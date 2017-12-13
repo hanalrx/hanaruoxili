@@ -226,7 +226,10 @@ a{
 	border: 5px solid #9535fc;
     transition-duration:0.6s;-webkit-transition: all .6s linear;-moz-transition: all .6s linear;-ms-transition: all .6s linear;-otransition: all .6s linear;}
 
-
+.render{
+    border: 5px solid white;
+    display: inline-block;
+}
 
 /*add*/
 .folder-collection {position:relative;padding:0 10% 0 18.5%;}
