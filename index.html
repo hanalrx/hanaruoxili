@@ -327,7 +327,7 @@
 								<div class="subtitle">↳ Design</br></div>
 								<div class="subsubtitle divborder">⇥ Wave curve</br></br></div>
 								<div class="divborder">
-									<div class="divborder leftCon"><img src="APIECE/beilunport.jpg" width="97%"></br></br></div>
+									<div class="divborder leftCon"><img src="APIECE/beilunport.jpg" width="97%" class="sImg"></br></br></div>
 									<div class="divborder zhengwen rightCon">The edge curves of the installation generate from tidal data of Beilun Port (Zhejiang province, China), which is the nearest tidal port from my hometown. </br></br>
 									Tidal statistics collected from <a class="underline" href=" http://ocean.cnss.com.cn/" target="_blank">China maritime service network.</a>
 									</br></br><p class="picnote" style="align:justify;">Left figure: Beilun Port and its tidal statistics since January in 2017.</p></div>
@@ -653,8 +653,7 @@
                                 <p class="zhengwenda">1.7gha = 1700 ecoins</p><p class="zhengwen">Each user gets 1700 ecoins per day, representing the amount of biologically productive areas that a planet can regenerate (1.7gha) each year. User's consumption including mobility, living, water, electricity, food and activities, will be recorded and deducted in the 1700 ecoins.<br> <br><img src="http://4.bp.blogspot.com/-d48V1EgquhM/WjJw40T4FBI/AAAAAAAAAiE/j1JzxgZy_WkbzMavJ6tFl1GThzDJy6twwCK4BGAYYCw/s1600/inside.jpg" width="100%"> <br>
                                 <br>As the figure shows, if the user is within Malan Lake Resort <em>(inside)</em>, when the user participates in entertainment activities, he or she can get a certain amount of ecoins as rewards and encouragement for participating in the environmental-friendly activity. <br>
                                 <br>If the user leaves Malan Lake <em>(outside)</em> and still using our system on his/her mobile devices,  he is still able to see his daily consumption and his ecological footprint. <br>
-                                Since the user does not eat in Malan Lake anymore, which means dining statistics is not available, eco in uses the same average quantitate consumption for everyone as dining statistics.
-                                Since the user does not eat in Malan Lake anymore, which means dining statistics is not available, eco in uses the same average quantitate consumption for everyone as dining statistics. </p><br>
+                                Since the user does not eat in Malan Lake anymore, which means dining statistics is not available, eco in uses the same average quantitate consumption for everyone as dining statistics.</p><br>
                                 <img src="http://3.bp.blogspot.com/-bG2iEeN0Y7g/WjJw3bQ1tBI/AAAAAAAAAgo/7LObWSHLWbI_Z321u7CoxQpyu7ENIq-pACK4BGAYYCw/s1600/inside2.jpg" width="100%"><br><br>
                                 <p class="zhengwen">If there are ecoins left when a day ends, the left ecoins are called "ecological surplus", the ecological surplus is saved to your balance. The ecoins in balance could be either exchanged for cash when you settle accounts or be donated in the form of bottled water to Malan Lake.<br><br>Ladder payment: 
                                 When user's consumption surpasses 1700 ecoins, it means that he or she have overdrawn "one earth". The overdraft part charges 1.5 times the price. The ladder payment connects the daily goal with user's expenditure, which aims to advocate people to be responsible for the environment and encourage them to engage in realizing the one earth goal.
@@ -1392,7 +1391,7 @@
 							<iframe src="https://player.vimeo.com/video/245750100?byline=0&portrait=0" width="1000" height="563" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br><br><hr><br><br><br>
 							<div>
                             <div class="leftCon" style="padding-right:3%;"><p class="zhengwen"><span class="zhengwen" style="line-height:50%"><br></span>This is a video made in 2015 for the Experience Design Project of <a href="http://www.huashan.org.cn/" class="underline" target="_blank">Shanghai Huashan Hospital</a>. <br><br>
-                            The video made in 2015 visualizes the emotional changes of patients visiting the hospital. Different stages of experience and a variety of emotional changes are shown in this audio - visual animation.<br><br><br><p class="zhengwen" style="opacity:0.5"><b> Used:</b> Adobe After Effects, Adobe Premiere, Cinema 4D, Trapcode Particular, Trapcode Glow<br>
+                           The aim of this video is to visualise the visiting patients' emotional changes. The different dynamic stages of experience and various emotional changes with exciting music are penetrated in it, showing vibrant scenes.<br><br><br><p class="zhengwen" style="opacity:0.5"><b> Used:</b> Adobe After Effects, Adobe Premiere, Cinema 4D, Trapcode Particular, Trapcode Glow<br>
                             <b> Music:</b> Yundi Li<br>
                             <b> Instructor:</b> Prof. Xiangyang Xin<br></p></p></div>
                             
@@ -1667,6 +1666,35 @@
 			})
 		})
     	</script>
+        <script>
+            /*点击显示大图*/
+		function showImg(_this) {
+			var _this = _this;
+			var imgStr1 = _this.attr("src").split(".")[0];
+			var imgStr2 = _this.attr("src").split(".")[1];
+			$(".showImg img").attr("src",imgStr1+'_big.'+imgStr2);
+			$(".showImg").show();
+			setTimeout(function(){
+				var showWidth = $(".showImg img").width()/2;
+				var showHeight = $(".showImg img").height()/2;
+				$(".showImg .showInner").css({"left":'50%',"top":"50%","marginLeft":-showWidth,"marginTop":-showHeight,"opacity":1});
+			},10);
+		}
+		$(window).resize(function(){
+			setTimeout(function(){
+				var showWidth = $(".showImg img").width()/2;
+				var showHeight = $(".showImg img").height()/2;
+				$(".showImg .showInner").css({"left":'50%',"top":"50%","marginLeft":-showWidth,"marginTop":-showHeight,"opacity":1});
+			},0);
+		});
+		$(".sImg").click(function() { 
+			var _this = $(this);
+			showImg(_this);
+		})
+		$(".showImg").click(function() {
+			$(this).hide();
+		})
+        </script>
         <!-- time -->
         <script>
             var d= new Date();
