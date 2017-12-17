@@ -33,7 +33,7 @@ body{
  .content{position:relative;}
 #left{
     width:260px;
-    background: rgb(229,229,229);
+    background: rgb(255, 245, 241);
     height: 100%;
     overflow: auto;position:relative;
 }
@@ -42,7 +42,7 @@ body{
     position:absolute;
 	right:0;
     width:auto;
-    background: rgb(229,229,229);
+    background: rgb(255, 245, 241);
     height: 100%;padding:0 30px;
     overflow: auto;top:0;
 }
