@@ -237,9 +237,9 @@ a{
 }
 
 /*add*/
-.folder-collection {position:relative;padding:0 10% 0 18.5%;}
+.folder-collection {position:relative;padding:0 13% 0 17.5%;}
 .folder-collection ul{margin-bottom:5px;}
-li.folder-collection a i{position:absolute;width:14px;height:14px;background:#fff;border:1px solid #9535fc;left:10%;top:14px;display:none;border-radius:50%;}
+li.folder-collection a i{position:absolute;width:13px;height:13px;background:#fff;border:1px solid #9535fc;left:9.5%;top:14px;display:none;border-radius:50%;}
 li.folder-collection a:hover i{background:#fff;border:1px solid #9535fc;display:block;}
 li.folder-collection.cur a i{background:#9535fc;border:1px solid #9535fc;display:block;}
 
