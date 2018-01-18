@@ -1,19 +1,29 @@
 body{
-	background: -webkit-linear-gradient( #cc99ff,white, #cc99ff); /* For Safari 5.1 to 6.0 */
-  	background: -o-linear-gradient( #cc99ff,white, #cc99ff); /* For Opera 11.1 to 12.0 */
-  	background: -moz-linear-gradient( #cc99ff,white, #cc99ff); /* For Firefox 3.6 to 15 */
-  	background: linear-gradient( #cc99ff,white, #cc99ff); /* Standard syntax */
+	background: -webkit-linear-gradient( rgb(255, 249, 183),white, rgb(255, 249, 183)); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient( rgb(255, 249, 183),white, rgb(255, 249, 183)); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient( rgb(255, 249, 183),white, rgb(255, 249, 183)); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient( rgb(255, 249, 183),white, rgb(255, 249, 183)); /* Standard syntax */
 	margin-top: 10%;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 15%;
+	margin-right: 15%;
 	margin-bottom: 14%;
-	padding: 5%;
-	border-style: solid;
-	border-color: black;
-	font-family: 'Open Sans', sans-serif;
-	text-align: center;
+	font-family: 'Karla', sans-serif;
+	align: center;
+    text-align: justify
 }
-
+.fixeddate{
+    position: fixed;
+    right: 3%;
+    top: -2px;
+    text-align: center;
+    z-index: 100;
+    color: white;
+    font-family: 'Karla',sans-serif;
+    font-size: 110%;
+}
+.fixeddate span{background-color: rgb(56, 125, 255);
+    display: inline-block;
+    vertical-align: middle;}
 a{
 	color: purple;
 }
@@ -21,10 +31,20 @@ a{
 	text-align: left;
 }
 
-.zoom:hover{
-	width: 550px;
-	height: 250px;
-	transition-duration: 1s;
+
+.da{
+    font-size: 250%
+}
+.zhong{
+    font-size: 190%;
+}
+.xiao{
+    font-size: 130%;
+}
+
+.picnote{
+    font-size: 80%;
+    opacity: 0.6;
 }
 
 .title{
@@ -36,6 +56,10 @@ a{
 	height: 370px;
 	transition-duration: 1.5s;
 
+}
+
+.divborder{
+    max-width: 500px;
 }
 
 .img2:hover{
