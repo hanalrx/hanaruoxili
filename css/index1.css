@@ -237,6 +237,52 @@ a{
     display: inline-block;
 }
 
+.prev{
+  font-size: 300%;
+  color: #fff;
+  font-family: Monoton;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+
+}
+
+.prev:hover{
+  color: #9535fc;
+  -webkit-animation: none;
+  -moz-animation: none;
+  animation: none;
+    
+}
+
+.next{
+  font-size: 300%;
+  color: #fff;
+  font-family: Monoton;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+
+}
+
+.next:hover{
+  color: #9535fc;
+  -webkit-animation: none;
+  -moz-animation: none;
+  animation: none;
+    
+}
+
+
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #9535fc, 0 0 40px #9535fc;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #9535fc, 0 0 20px #9535fc;
+  }
+}
+
 /*add*/
 .folder-collection {position:relative;padding:0 13% 0 17.5%;}
 .folder-collection ul{margin-bottom:5px;}
