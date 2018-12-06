@@ -74,7 +74,6 @@ a{
 .myname{
     font-family: 'Roboto';
     color: #9535fc;
-    
 }
 
 .myintro{
@@ -86,11 +85,11 @@ a{
     font-family: 'Karla',sans-serif;
 }
 .title1{
-    font-size:150%;
+    font-size:138%;
     font-family: 'Roboto';
-    background: #9535fc;
     color: white;
     border-style: none;
+    background: #9535fc;
     border-width: none;
     border-radius: none;
     border-color: #9535fc;
@@ -104,13 +103,13 @@ a{
 }
 
 .title2{
-    font-size: 140%;
+    font-size: 130%;
     font-family: 'Karla',sans-serif;
     color: black;
 }
 
 .title2:hover{
-    letter-spacing: 120%;
+    letter-spacing: `30%;
     font-family: 'Karla',sans-serif;
     color: #9535fc;
     transition-duration:0.23s;
@@ -287,12 +286,12 @@ a{
 /*add*/
 .folder-collection {position:relative;padding:0 13% 0 17.5%;}
 .folder-collection ul{margin-bottom:5px;}
-li.folder-collection a i{position:absolute;width:13px;height:13px;background:#fff;border:1px solid #9535fc;left:9.5%;top:14px;display:none;border-radius:50%;}
+li.folder-collection a i{position:absolute;width:12px;height:12px;background:#fff;border:1px solid #9535fc;left:9.5%;top:11px;display:none;border-radius:50%;}
 li.folder-collection a:hover i{background:#fff;border:1px solid #9535fc;display:block;}
 li.folder-collection.cur a i{background:#9535fc;border:1px solid #9535fc;display:block;}
 
 #left .myname{
-    padding-top: 40px;padding-left:47px;font-size:220%;line-height:100%;text-align:left; 
+    padding-top: 40px;padding-left:49px;font-size:300%;line-height:100%;text-align:left; 
     font-family: 'Roboto';
     color: rgba(0, 0, 0, 0.3);
     text-align: left;}
